@@ -54,8 +54,6 @@ This repository serves as a structured template for documentation writers. It pr
 - `Landing_Location.md`: 
   - Where data is stored (Snowflake, S3, etc.).
   - Specific schemas, tables, or folders used for storage.
-- `Downstream_Impact.md`: 
-  - Final tables or views this source is relevant to.
 - `Adding_New_Sources.md`: 
   - Steps for integrating a new source into the existing pipeline.
 - `Troubleshooting_Extracts.md`: 
