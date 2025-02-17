@@ -22,7 +22,7 @@ This repository serves as a structured template for documentation writers. It pr
 - `Password_Vault.md`: Instructions for using the password vault tool and who to contact for access.
 - `2FA_Setup.md`: Steps for setting up two-factor authentication where applicable.
 - `Login_Setups.md`: List of tools used in the project and their respective login requirements.
-- `Authentication_Quirks.md`: Notes on special authentication cases (e.g., Keplr SSMS requiring Windows authentication for some DBs and SQL Server authentication for others).
+- `Authentication_Quirks.md`: Notes on special authentication cases.
 - `People_Reference.md`: Contact list for:
   - Team members working on the project.
   - Client-side contacts for respective topics.
