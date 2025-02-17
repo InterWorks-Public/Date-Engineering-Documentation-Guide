@@ -24,7 +24,7 @@ This repository serves as a structured template for documentation writers. It pr
 - `Security_Privacy.md`: Other relevant privacy and security guidelines.
 - `VPN_Requirements.md`: VPN setup instructions if applicable.
 
-**
+
 ## 02 High Level Overview
 **Purpose:** A broad summary of the project, setting context for stakeholders and new team members.
 - `Business_Context.md`: Explanation of the business problem being solved.
