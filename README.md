@@ -16,7 +16,7 @@ This repository serves as a structured template for documentation writers. It pr
 - `README.md`: Overview of the repository's structure and how to use the template.
 - `Project_Setup.md`: Steps to initialize a new documentation project.
 - `Contributors.md`: Guidelines for contributing to the documentation.
-- 
+  
 ### Access & Logins
 **Purpose:** Provides guidelines on accessing tools, authentication requirements, and security best practices.
 - `Password_Vault.md`: Instructions for using the password vault tool and who to contact for access.
