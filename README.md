@@ -12,6 +12,19 @@ This repository serves as a structured template for documentation writers. It pr
 - `Tools_and_Dependencies.md`: List of required tools and how to install them.
 - `Contributors.md`: Guidelines for contributing to the documentation.
 
+### Access & Logins
+**Purpose:** Provides guidelines on accessing tools, authentication requirements, and security best practices.
+- `Password_Vault.md`: Instructions for using the password vault tool and who to contact for access.
+- `2FA_Setup.md`: Steps for setting up two-factor authentication where applicable.
+- `Login_Setups.md`: List of tools used in the project and their respective login requirements.
+- `Authentication_Quirks.md`: Notes on special authentication cases (e.g., Keplr SSMS requiring Windows authentication for some DBs and SQL Server authentication for others).
+- `People_Reference.md`: Contact list for:
+  - Team members working on the project.
+  - Client-side contacts for respective topics.
+- `Security_Privacy.md`: Other relevant privacy and security guidelines.
+- `VPN_Requirements.md`: VPN setup instructions if applicable.
+
+**
 ## 02 High Level Overview
 **Purpose:** A broad summary of the project, setting context for stakeholders and new team members.
 - `Business_Context.md`: Explanation of the business problem being solved.
