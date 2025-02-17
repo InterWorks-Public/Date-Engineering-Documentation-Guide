@@ -98,6 +98,7 @@ This repository serves as a structured template for documentation writers. It pr
 
 ## 05 Transformations
 **Purpose:** Documentation for data processing workflows and transformations.
+- This can get hyperspecific very quickly, so take a while to think this one through. 
 - `ETL_Pipeline.md`: Description of the Extract, Transform, Load (ETL) process.
 - `Transformation_Scripts/`: Folder containing sample SQL, Python, or dbt scripts.
 - `Data_Validation.md`: Steps for ensuring data accuracy and integrity.
@@ -115,9 +116,6 @@ This repository serves as a structured template for documentation writers. It pr
 - `Analyst_Insights.md`:
   - Common insights and key information that analysts seek from views and reports.
   - Recommendations for optimizing report structures to better serve analytical needs.
-- `Impact_of_Changes.md`:
-  - Files or processes affected by updates to views and reports.
-  - Identification of potential breaking points in reporting workflows.
 **Purpose:** Explanation of how data is visualized and reported.
 - `Dashboard_Design_Guidelines.md`: Best practices for creating dashboards.
 - `Metrics_Definitions.md`: Key performance indicators and their calculations.
