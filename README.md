@@ -39,6 +39,29 @@ This repository serves as a structured template for documentation writers. It pr
 
 ## 03 Sources
 **Purpose:** A detailed breakdown of data sources used in the project.
+
+- `Source_Systems.md`: Overview of data sources and their ownership.
+- `APIs_and_Connections.md`: Authentication methods, API endpoints, and credentials setup (excluding sensitive information).
+- `File_Formats.md`: Descriptions of expected file types (CSV, JSON, Parquet, etc.).
+- `Schema_Reference.md`: Table structures, columns, and data types.
+- `Extraction_Details.md`: 
+  - Name of the data source and relevant data it contains.
+  - Tool used for extraction (e.g., custom API, AWS, Fivetran, etc.).
+  - Relevant table names, their format (XML, CSV, JSON, etc.), and whether they are dropped or just updated.
+  - If unstructured, how it is transformed into structured data.
+  - Expected table sizes and volume of data.
+  - Extraction duration and warning signs for failures.
+- `Landing_Location.md`: 
+  - Where data is stored (Snowflake, S3, etc.).
+  - Specific schemas, tables, or folders used for storage.
+- `Downstream_Impact.md`: 
+  - Final tables or views this source is relevant to.
+- `Adding_New_Sources.md`: 
+  - Steps for integrating a new source into the existing pipeline.
+- `Troubleshooting_Extracts.md`: 
+  - Known extraction issues and common troubleshooting methods.
+  - Possible pressure points in the process.
+**Purpose:** A detailed breakdown of data sources used in the project.
 - `Source_Systems.md`: Overview of data sources and their ownership.
 - `APIs_and_Connections.md`: Authentication methods, API endpoints, and credentials setup (excluding sensitive information).
 - `File_Formats.md`: Descriptions of expected file types (CSV, JSON, Parquet, etc.).
