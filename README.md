@@ -11,7 +11,12 @@ This repository serves as a structured template for documentation writers. It pr
 - `Project_Setup.md`: Steps to initialize a new documentation project.
 - `Tools_and_Dependencies.md`: List of required tools and how to install them.
 - `Contributors.md`: Guidelines for contributing to the documentation.
-
+- `Style_Guide.md`: Documentation standards, formatting rules, and best practices.
+**Purpose:** This folder provides foundational guidance for new documentation writers and project members.
+- `README.md`: Overview of the repository's structure and how to use the template.
+- `Project_Setup.md`: Steps to initialize a new documentation project.
+- `Tools_and_Dependencies.md`: List of required tools and how to install them.
+- `Contributors.md`: Guidelines for contributing to the documentation.
 ### Access & Logins
 **Purpose:** Provides guidelines on accessing tools, authentication requirements, and security best practices.
 - `Password_Vault.md`: Instructions for using the password vault tool and who to contact for access.
