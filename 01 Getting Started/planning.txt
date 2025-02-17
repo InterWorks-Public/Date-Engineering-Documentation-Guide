@@ -14,5 +14,7 @@ People Reference list:
 
 Other privacy and security details. 
 
+VPN if applicable
+
 IMPORTANT:
 (Iterate to NOT include actual passwords, logins etc directly in this document) 
