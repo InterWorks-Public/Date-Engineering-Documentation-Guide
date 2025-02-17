@@ -128,5 +128,3 @@ This repository serves as a structured template for documentation writers. It pr
 2. Populate each section with relevant documentation as needed.
 3. Keep documentation clear, concise, and up-to-date to ensure project consistency and usability.
 
-Happy documenting!
-
