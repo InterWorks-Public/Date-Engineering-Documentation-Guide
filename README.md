@@ -71,6 +71,30 @@ This repository serves as a structured template for documentation writers. It pr
 - `Schema_Definitions.md`: Explanation of schema choices and table definitions.
 - `Indexing_and_Performance.md`: Strategies for optimizing database performance.
 - `Data_Retention.md`: Policies on data storage, archiving, and deletion.
+- `Database_Architecture.md`:
+  - Explanation of database design principles (e.g., Medallion, Snowflake, Data Vault, Star Schema, etc.).
+  - Staging tables vs. final views, and how they are structured.
+  - Breakdown of individual data source pipelines.
+  - Detailed visuals similar to the Data Pipeline Architecture.
+- `Special_Features.md`:
+  - Use of snapshots, Slowly Changing Dimensions (SCDs), and backups.
+  - Where these structures exist within the architecture.
+- `Cloud_Platform.md`:
+  - Hosting details (AWS, Azure, hosted SQL, etc.).
+  - Platform-specific quirks and best practices.
+- `Permissions.md`:
+  - Database access controls.
+  - Differences in permissions for analysts, engineers, and external users.
+- `Troubleshooting_Guide.md`:
+  - Common login problems.
+  - Permission-related issues.
+  - Missing tables or views.
+  - Cloud-specific challenges and resolutions.
+**Purpose:** Database design and implementation details.
+- `ER_Diagram.png`: Entity-relationship diagram illustrating table relationships.
+- `Schema_Definitions.md`: Explanation of schema choices and table definitions.
+- `Indexing_and_Performance.md`: Strategies for optimizing database performance.
+- `Data_Retention.md`: Policies on data storage, archiving, and deletion.
 
 ## 05 Transformations
 **Purpose:** Documentation for data processing workflows and transformations.
