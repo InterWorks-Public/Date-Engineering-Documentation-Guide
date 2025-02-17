@@ -109,7 +109,20 @@ This repository serves as a structured template for documentation writers. It pr
 - `Metrics_Definitions.md`: Key performance indicators and their calculations.
 - `Report_Templates/`: Sample Power BI, Tableau, or Looker reports.
 - `Data_Visualization_Best_Practices.md`: Principles for effective visual communication.
-
+- `Detailed_Reporting_Architecture.md`:
+  - In-depth breakdown of the reporting structure with detailed visuals.
+  - Explanation of how reports interact with data sources and transformations.
+- `Analyst_Insights.md`:
+  - Common insights and key information that analysts seek from views and reports.
+  - Recommendations for optimizing report structures to better serve analytical needs.
+- `Impact_of_Changes.md`:
+  - Files or processes affected by updates to views and reports.
+  - Identification of potential breaking points in reporting workflows.
+**Purpose:** Explanation of how data is visualized and reported.
+- `Dashboard_Design_Guidelines.md`: Best practices for creating dashboards.
+- `Metrics_Definitions.md`: Key performance indicators and their calculations.
+- `Report_Templates/`: Sample Power BI, Tableau, or Looker reports.
+- `Data_Visualization_Best_Practices.md`: Principles for effective visual communication.
 ---
 
 ### How to Use This Template
