@@ -27,7 +27,7 @@ This repository serves as a structured template for documentation writers. It pr
 
 ## 02 High Level Overview
 **Purpose:** A broad summary of the project, setting context for stakeholders and new team members.
-- `Business_Context.md`: Explanation of the business problem being solved.
+- `Business_Context.md`: Explanation of the business problem being solved. Lingo, or other business specific topics can be included here. 
 - `Project_Objectives.md`: Goals and expected outcomes of the project.
 - `Data_Flow_Diagram.png`: Visual representation of data movement within the system.
 - `Solution_Architecture.md`: Technical architecture and major components involved.
