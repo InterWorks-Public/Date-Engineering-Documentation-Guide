@@ -6,13 +6,6 @@ Business Context and Objectives
 
 {{DATE}}
 
-Revision History
-
-| Version | Author | Date | Description |
-|---------|--------|------|-------------|
-|         |        |      |             |
-|         |        |      |             |
-|         |        |      |             |
 
 *This initial phase focuses on understanding the project objectives and
 requirements from a business perspective, then converting this knowledge
