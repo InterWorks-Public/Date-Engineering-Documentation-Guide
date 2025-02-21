@@ -31,12 +31,12 @@ software*
 
 ## Personnel
 
-| Name | Organization | Role                                  | Contact Information |
-|------|--------------|---------------------------------------|---------------------|
-|      |              | The role of the person in the project | email/phone         |
-|      |              |                                       |                     |
-|      |              |                                       |                     |
-|      |              |                                       |                     |
+| Name | Organization   | Role                                  | Contact Information |
+|------|----------------|---------------------------------------|---------------------|
+|      | data/analytics | The role of the person in the project | email/phone         |
+|      |                |                                       |                     |
+|      |                |                                       |                     |
+|      |                |                                       |                     |
 
 ## 
 
