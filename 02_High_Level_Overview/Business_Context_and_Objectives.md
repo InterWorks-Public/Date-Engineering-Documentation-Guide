@@ -42,9 +42,6 @@ software*
 | Location                                         | Storage Type     | Description                                                          | Contacts                        |
 |--------------------------------------------------|------------------|----------------------------------------------------------------------|---------------------------------|
 | Describe briefly how to gain access to the data. | CSV/Database/etc | Describe briefly what the data consists of. How often is it updated? | List out anyone that may assist |
-|                                                  |                  |                                                                      |                                 |
-|                                                  |                  |                                                                      |                                 |
-|                                                  |                  |                                                                      |                                 |
 
 ## Software
 
