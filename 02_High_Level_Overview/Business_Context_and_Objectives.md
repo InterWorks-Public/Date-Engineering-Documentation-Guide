@@ -7,7 +7,7 @@ Business Context and Objectives
 {{DATE}}
 
 
-*Understanding the project’s business goals is the first step. The data professional must translate these objectives into a clear data problem and outline a preliminary plan. Since customers often have competing priorities, it’s crucial to identify key factors early to ensure efforts align with real needs. Skipping this step risks solving the wrong problem efficiently.*
+*Understanding the project’s business goals is the first step. As a data professional you must translate these objectives into a clear data problem and outline a preliminary plan. Since customers often have competing priorities, it’s crucial to identify key factors early to ensure efforts align with real needs. Skipping this step risks solving the wrong problem efficiently.*
 
 # Background
 
