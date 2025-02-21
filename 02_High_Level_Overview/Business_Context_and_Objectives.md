@@ -46,22 +46,11 @@ In addition to the primary business objective, there are typically other
 related business questions that the customer would like to address –
 include those here as well.*
 
-# Business Success Criteria
-
-*Describe the criteria for a successful or useful outcome to the project
-from the business point of view. This might be quite specific and able
-to be measured objectively, for example, create a report that shows
-trends of leakage. Otherwise it may be more subjective – create a data
-set for self-service to help us do X. Who will be evaluating the end
-results?*
-
 # Inventory of Resources
 
 *List the resources available to the project, including personnel
-(business experts, data experts, technical support, data mining
-experts), data (fixed extracts, access to live, warehoused, or
-operational data), computing resources (hardware platforms), and
-software (data mining tools, other relevant software).*
+(business experts, data experts, technical support, computing resources (hardware platforms), and
+software*
 
 ## Personnel
 
@@ -85,7 +74,7 @@ software (data mining tools, other relevant software).*
 
 ## Software
 
-*List out any relevant software to complete the objectives.*
+*List out any relevant software*
 
 -   *AWS EMR*
 
@@ -99,36 +88,8 @@ software (data mining tools, other relevant software).*
 
 *List all requirements of the project, including schedule of completion,
 comprehensibility and quality of results, and security, as well as legal
-issues. As part of this output, make sure that you can use the data. In
-addition, be sure to include – data loading frequency, transformations,
-formulas, how to handle missing/bad data. Some requirements may not be
-identified until the next phase, data understanding.*
+issues. 
 
-# Assumptions
-
-*List the assumptions made by the project. These may be assumptions
-about the data that can be verified during data mining but may also
-include non-verifiable assumptions about the business related to the
-project. It is particularly important to list the latter if it will
-affect the validity of the results.*
-
-# Constraints
-
-*List the constraints on the project. These may be constraints on the
-availability of resources but may also include technological
-constraints.*
-
--   *Do you have all passwords required for data access?*
-
--   *Have you verified all legal constraints on data usage?*
-
--   *Are all financial constraints covered in the project budget?*
-
-# Risks and Contingencies
-
-*List the risks or events that might delay the project or cause it to
-fail. List the corresponding contingency plans, what action will be
-taken if these risks or events take place.*
 
 # Terminology
 
@@ -137,30 +98,7 @@ of the business understanding available to the project. Constructing
 this glossary is a useful “knowledge elicitation” and education
 exercise.*
 
-# Costs and Benefits
 
-*Construct a cost-benefit analysis for the project, which compares the
-costs of the project with the potential benefits to the business if it
-is successful. The comparison should be as specific as possible. Feel
-free to use monetary values when applicable.*
-
--   *Scheduling - What if the project takes longer than anticipated?*
-
--   *Financial - What if the project sponsor encounters budgetary
-    problems?*
-
--   *Data - What if the data are of poor quality or coverage?*
-
--   *Results - What if the initial results are less dramatic than
-    expected?*
-
-# Project Goals
-
-*Describe the project goals in technical terms. For example, the
-business objective may be to identify leakage over X business units via
-a report. The technical goal may be to implement a Power BI report
-accessible to X, Y, Z that shows leakage trends over various periods of
-time.*
 
 # Project Outputs
 
