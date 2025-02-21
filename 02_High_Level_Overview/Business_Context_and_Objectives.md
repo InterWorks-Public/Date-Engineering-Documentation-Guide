@@ -1,12 +1,8 @@
-{{ Project Name }}
-
-Business Understanding
-
-{{ Your Team Name }}
+Business Context and Objectives
 
 {{ Your Company Name }}
 
-{{ Document Version }}
+{{ Author }}
 
 {{DATE}}
 
