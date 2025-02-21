@@ -39,11 +39,13 @@ include those here as well.*
 
 *List out any relevant software*
 
--   *AWS EMR*
+-   *AWS S3*
 
--   *Apache Airflow*
+-   Fivetran
 
--   *Power BI*
+-   *Snowflake*
+
+-   *Tableau*
 
 -   *Etc.*
 
