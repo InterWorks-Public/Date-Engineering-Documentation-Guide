@@ -25,9 +25,7 @@ include those here as well.*
 
 # Inventory of Resources
 
-*List the resources available to the project, including personnel
-(business experts, data experts, technical support, computing resources (hardware platforms), and
-software*
+*List the resources available to the project. People, password vaults info, tools, other relevant documents, legal, etc.
 
 ## Personnel
 
@@ -37,13 +35,8 @@ software*
 
 ## 
 
-## Data
 
-| Location                                         | Storage Type     | Description                                                          | Contacts                        |
-|--------------------------------------------------|------------------|----------------------------------------------------------------------|---------------------------------|
-| Describe briefly how to gain access to the data. Recap access sectino from 01 Getting started | CSV/Database/etc | Describe briefly what the data consists of. How often is it updated? | List out anyone that may assist |
-
-## Software
+## Software / Tools
 
 *List out any relevant software*
 
