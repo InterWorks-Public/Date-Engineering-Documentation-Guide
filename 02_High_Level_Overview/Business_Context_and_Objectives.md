@@ -33,7 +33,6 @@ include those here as well.*
 |------|----------------|---------------------------------------|---------------------|
 |      | data/analytics | The role of the person in the project | email/phone         |
 
-## 
 
 
 ## Software / Tools
