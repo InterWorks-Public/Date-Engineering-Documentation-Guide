@@ -7,19 +7,7 @@ Business Context and Objectives
 {{DATE}}
 
 
-*This initial phase focuses on understanding the project objectives and
-requirements from a business perspective, then converting this knowledge
-into a data engineering/analytics problem definition and a preliminary
-plan designed to achieve the objectives.*
-
-*The first objective of the data person is to thoroughly understand,
-from a business perspective, what the customer really wants to
-accomplish. Often the customer has many competing objectives and
-constraints that must be properly balanced. The person’s goal is to
-uncover important factors, at the beginning, that can influence the
-outcome of the project. A possible consequence of neglecting this step
-is to expend a great deal of effort producing the right answers to the
-wrong questions.*
+*Understanding the project’s business goals is the first step. The data professional must translate these objectives into a clear data problem and outline a preliminary plan. Since customers often have competing priorities, it’s crucial to identify key factors early to ensure efforts align with real needs. Skipping this step risks solving the wrong problem efficiently.*
 
 # Background
 
