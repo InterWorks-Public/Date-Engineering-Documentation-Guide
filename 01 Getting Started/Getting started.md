@@ -16,9 +16,11 @@ Business Context and Objectives
 
 *Describe the process for contributing the docs, suggesting edits, or contacts for this. Any style guidelines should be included here as well. If your company has a setup already for this, list it here. This should provide foundational guidance for new documentation writers or project members being added throughout the process.*
 
-# Tools and Dependencies 
+# Tools, Dependencies and Access/Logins
 
-* List any tools to be used throughout the project, as well as associated login instructions. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
+* List any tools to be used throughout the project, as well as associated login instructions. You can instead just refer the reader to the separate "Access and Logins File if this is more extensive than simple logins. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
+
+Example: 
 
 -   AWS S3 : ___
 
@@ -41,18 +43,4 @@ Business Context and Objectives
 
 
 
-# Terminology
-
-*Compile a glossary of relevant business terminology, which forms part
-of the business understanding available to the project. Constructing
-this glossary is a useful “knowledge elicitation” and education
-exercise.*
-
-
-
-# Project Outputs
-
-*Describe the outputs of the project to enable achievement of the
-business objectives. What data will be produced? What pipelines need
-implemented? Reports? This paragraph serves as the "answer" to the Business Objectives section*
 
