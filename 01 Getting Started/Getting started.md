@@ -10,7 +10,7 @@ Business Context and Objectives
 
 
 
-*Encourage the reader to read the documentation (at least structurally) in its entirety on the first pass if they have not worked with this template before, to at least familiarize themselves with where things are found. explain how info is found, and other general "how to use the docs" info. *
+*Encourage the reader to read the documentation (at least structurally) in its entirety on the first pass if they have not worked with this template before, to at least familiarize themselves with where things are found. explain how info is found, and other general "how to use the docs" info.*
 
 # Contributing to the Docs
 
