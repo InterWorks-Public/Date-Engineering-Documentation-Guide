@@ -24,7 +24,7 @@ the new solution improve if there is one? This should serve as a field overview,
 
 # Inventory of Resources
 
-*List the resources available to the project. People, tools, other relevant documents, legal, etc.
+*List the resources available to the project. People, tools, other relevant documents, legal, etc. This type of field will appear in most documents. 
 
 ## Personnel
 
