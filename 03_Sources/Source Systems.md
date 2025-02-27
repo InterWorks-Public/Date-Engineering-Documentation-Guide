@@ -31,7 +31,7 @@
 - Purpose: provides customer interaction data for analytics
 - Access: API authentication using Oauth 2.0. Credentials stored in Azure Key vault
 - Connection Details:
-     - Endpoint: https://api.salesforce.com/data/1235/
+     - Endpoint: https://api.salesforce.com/data/example/
      - Rate Limits: 10,000 calls per hour
      - Pagination: uses nextPageToken for incremental data fetching
 - Data Structure:
