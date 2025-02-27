@@ -9,7 +9,7 @@
 ## Overview  
 This document provides details on how **data is extracted** from various source systems into the project’s pipelines. It outlines **extraction methods, frequency, transformations applied during extraction, and error handling mechanisms** to ensure a **standardized approach** while maintaining **data integrity and performance**.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - This document should be updated whenever an **extraction process is modified** or a **new source is added**.  
 > - Ensure this aligns with **Source Systems** and **Adding New Sources** documentation.  
 
@@ -39,7 +39,7 @@ Define how data is retrieved from each source system and its schedule.
 - **Incremental vs. Full Load:** Are new records appended, or is the full dataset refreshed each time?  
 - **Scheduled vs. Event-Driven:** Is the extraction triggered by a scheduler (Airflow, Matillion) or based on external events (e.g., S3 file upload, Kafka message)?  
 
-> **📌 Ensures** consistent extraction patterns and prevents unnecessary reprocessing.  
+> **Ensures** consistent extraction patterns and prevents unnecessary reprocessing.  
 
 ---
 
@@ -59,7 +59,7 @@ Describe any **transformations applied** to raw data before it reaches the pipel
 | Snowflake | `purchase_date` | `purchase_year` | Extract year from timestamp |
 | Google Analytics | `event_category` | `event_type` | Rename for consistency |
 
-> **📌 Ensures** that extracted data aligns with existing schemas and business rules.  
+> **Ensures** that extracted data aligns with existing schemas and business rules.  
 
 ---
 
