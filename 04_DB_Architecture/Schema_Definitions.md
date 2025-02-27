@@ -16,6 +16,18 @@ This document provides a **detailed breakdown** of the **database schema**, incl
 > - Define **relationships, constraints, and indexing** strategies clearly.  
 
 ---
+## Contacts  
+These contacts should include:  
+- **Who maintains this documentation**  
+- **Who to contact when issues arise**  
+- **Who has expertise in specific troubleshooting areas**  
+
+| Name  | Organization   | Role                                  | Contact Information |
+|-------|--------------|---------------------------------------|---------------------|
+|       | Data/Analytics | The role of the person in the project | email/phone |
+
+---
+
 
 ## 1. Schema Overview  
 Provide a **high-level structure** of the database, outlining **schemas, key tables, and relationships**.  
