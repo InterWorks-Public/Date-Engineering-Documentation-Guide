@@ -62,7 +62,7 @@ List the **people, tools, and documents** available for the project.
 ---
 
 ## 4. Terminology  
-A **glossary of business-specific terminology** to improve shared understanding.  
+A **glossary of business-specific terminology** to improve shared understanding. The examples below are obviously more generalized for sake of clarity. 
 
 | **Term** | **Definition** |
 |---------|--------------|
