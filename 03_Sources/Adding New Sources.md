@@ -10,7 +10,7 @@
 
 # Overview
 
-*This document provides a structured process for integrating new data sources into the project. It outlines key considerations, required configurations, and best practices to ensure seamless data ingestion and integration.*
+*This document provides a structured process for integrating new data sources into the project. As this is a highly variable task, we suggest not modifying this template much, and using it as a guide on what sort of questions you need answered from your client and yourself  before going ahead with getting this new source added. Answering the questions below for yourself will also provide you the framework for the documentation of your new source once you get around to that, to minimize the amount of work needed to add the new docs. Be sure to check out the references list to see who you should reach out to for updates to current docs. 
 
 # Business Purpose
 
@@ -28,13 +28,19 @@
 - Storage or access constraints: IP whitelisting, read vs write access
 
 
-Describe how the data will be extracted and process within the existing pipeline.*
+*Describe how the data will be extracted and process within the existing pipeline.*
 
 - Frequency
 - Volume
 - Incremental vs Full
 - Data Format
 - Existing Tooling and Orchestration: Will Matillion, DBT, etc need any modifications? Will this require a new ELT/ETL job or can you leverage an existing one?
+
+*Define how new data sources align with existing data structures:
+
+- schema comparison: How does the new data compare to existing tables
+- New vs Existing tables:
+
 
 
 
