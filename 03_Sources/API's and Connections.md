@@ -24,7 +24,7 @@
 
 Describe the authentication methods used for API's and connections relevant to your sources. The following topics can be subdived by source if doing all in one file, but my personal suggestion is always to split this up into multiple files (one for each source) as this will improve clarity, and wont take you much longer to find the specific file the source you are interested in.*
 
-  - Authentication type: (OAuth 2.0, API Key, Basic Auth, etc)
+  - Authentication type
   - Token Expiry and Refresh Process
   - Secrets Management: where are API keys stored? Vaults, environment variables, secret managers, etc
   - Security considerations: Encryption in transcit, access control policies, logging
