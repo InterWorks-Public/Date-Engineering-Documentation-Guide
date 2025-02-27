@@ -1,45 +1,57 @@
-
 # Access and Logins
 
-{ Your Company Name }
+## { Your Company Name }
+**Author:** { Author }  
+**Date:** { Date }  
+**Version:** { Version }  
 
-{ Author  }
+---
 
-{ Date }
+## Password Vault
+Provide details about the password vault, including:
+- How to access it
+- Who to contact for access
+- What is and isn’t included in the vault
 
-{ Version }
+---
 
+## 2FA Setup
+Include relevant details about Two-Factor Authentication (2FA):
+- How to set up 2FA for necessary tools
+- Whether 2FA setup is managed centrally or per project
+- Who is required to enable 2FA and the reasoning behind it
 
-# Password Vault
+---
 
-*Any relevant info regarding the password vault, how to get access to it (a contact), as well as what is and is not included in it.*
+## Other Authentication Quirks
+Document any unique login-related details, such as:
+- Shared access protocols
+- SSMS `sa` account information
+- Any non-obvious authentication setups for ad-hoc fixes
+- Additional clarifications for users unfamiliar with the project
 
-# 2FA setup
+This section may be further broken down into subsections as needed.
 
-*Any relevant info regarding 2FA should be included here. Explain how to set up 2FA for each of the necessary tools, or if this is all done already and is not the concern of the individual project owners. What users do/don't need to have 2FA set up, and why.*
+---
 
-# Other Authentication Quirks
+## VPN Setup
+Outline VPN-related information, including:
+- Setup instructions
+- Usage policies
+- Security considerations
 
-*If there are any specific details regarding logins (shared access, ssms sa info, etc) mention this here. Some login setups for ad-hoc fixes are complex and can be confusing for first time users so be sure to state anything that isn't obvious here. This is more so meant for people who do not consistently work on the project. You may split this section down further if desired or if needed by the project. Think of this as your "free form" section to adjust as needed.*
+---
 
-# VPN Setup 
+## Other Security Information
+Capture any remaining security details not covered above, including:
+- Additional legal or compliance requirements
+- Redundant security measures for thoroughness
 
-*If necessary, this is where you discuss any VPN setups as well as policy surrounding its use, and other security concerns.*
+---
 
-# Other Security information
+## References & Contacts
+A list of key individuals involved in login and authentication setup.
 
-*include any necessary security information not already mentioned above. You can repeat any legal requirements here for thoroughness if desired.*
-
-
-# References/Contacts:
-
-*List of people working on the project with respect to login setup. This is generally IT folks.*
-
-
-| Name | Company (internal/external)                    | Role                                  | Contact Information |
-|------|------------------------------------------------|---------------------------------------|---------------------|
-|      | data/analytics, Company X, external            | The role of the person in the project | email/phone         |
-
-
-
-
+| Name | Company (Internal/External) | Role | Contact Information |
+|------|-----------------------------|------|---------------------|
+|      | Data/Analytics, Company X, External | Role in Project | Email/Phone |
