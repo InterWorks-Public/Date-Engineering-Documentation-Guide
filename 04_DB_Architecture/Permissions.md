@@ -9,7 +9,7 @@
 ## Overview  
 This document outlines **database and system permissions**, detailing **access levels, role-based security, and enforcement policies**.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - Define **who has access to what** based on **principle of least privilege (PoLP)**.  
 > - Ensure **role-based access control (RBAC)** is enforced to minimize security risks.  
 > - Keep permissions **reviewed & updated** periodically to prevent unauthorized access.  
@@ -28,7 +28,7 @@ Define **roles and their corresponding access levels** within the system.
 | **Analyst** | Read-Only | Read access to reporting tables & views |
 | **Service Account** | Limited | Access for automation & scheduled jobs |
 
-> **📌 Always assign users to roles instead of granting individual permissions.**  
+> **Always assign users to roles instead of granting individual permissions.**  
 
 ---
 
@@ -45,7 +45,7 @@ Define **who can access which parts of the database** and under what conditions.
   - **Provided to Business Analysts & Reporting Tools**  
   - No modification rights  
 
-> **📌 Sensitive databases should require additional security measures (e.g., MFA, VPN).**  
+> **Sensitive databases should require additional security measures (e.g., MFA, VPN).**  
 
 ---
 
@@ -60,7 +60,7 @@ Define **how third-party tools & APIs interact** with the database.
 - **BI & Reporting Tools**  
   - Read-only access **to predefined views & reports**  
 
-> **📌 Ensure that external systems only access the data they strictly need.**  
+> **Ensure that external systems only access the data they strictly need.**  
 
 ---
 
@@ -77,7 +77,7 @@ Outline the process for **granting, reviewing, and revoking access**.
 - **Automatic expiration** for temporary access.  
 - **Immediate revocation** when an employee leaves the company.  
 
-> **📌 Periodic access reviews prevent unauthorized or outdated access.**  
+> **Periodic access reviews prevent unauthorized or outdated access.**  
 
 ---
 
@@ -92,7 +92,7 @@ Define how **permissions changes and access logs** are tracked.
   - Unauthorized access triggers **security alerts**  
   - Logs should be **retained for at least 12 months**  
 
-> **📌 All permission changes should be logged for security & compliance purposes.**  
+> **All permission changes should be logged for security & compliance purposes.**  
 
 ---
 
@@ -106,7 +106,7 @@ Ensure that permissions comply with **security and regulatory frameworks**.
   - **GDPR / CCPA** → Ensure proper data access controls.  
   - **SOC 2 / ISO 27001** → Access logs should be **regularly reviewed**.  
 
-> **📌 Security compliance is mandatory—ensure all access policies are enforced.**  
+> **Security compliance is mandatory—ensure all access policies are enforced.**  
 
 ---
 
