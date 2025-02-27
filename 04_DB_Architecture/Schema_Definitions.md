@@ -38,7 +38,7 @@ Provide a **high-level structure** of the database, outlining **schemas, key tab
 | **analytics** | Processed and cleaned data | Reporting & BI |
 | **core** | Main operational tables | Production data transactions |
 
-> **Each schema serves a specific function** to support ETL processes and system architecture.  
+> **Each schema serves a specific function** to support ETL processes and system architecture. Make sure to be thorough here, but don't clutter it. If you need to break it out into separate files, do so.  
 
 ---
 
