@@ -118,6 +118,8 @@ Define **automated checks** to ensure **data accuracy** during extraction.
 
 ### **Anomaly Detection:**  
 - Are **outliers flagged** (e.g., negative prices, extreme values)?
+
+  
 > **📌 Prevents bad data from propagating through the pipeline.
 
 ---
