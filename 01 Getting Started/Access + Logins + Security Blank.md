@@ -52,7 +52,7 @@ A list of key **individuals involved** in login and authentication setup.
 |----------|--------------------------------|----------|-------------------------|
 |          | Data/Analytics, Company X, External | Role in Project | Email/Phone |
 
-> **Best Practice:** Keep this contact list **up to date** to ensure smooth access request handling.  
+> Keep this contact list **up to date** to ensure smooth access request handling.  
 
 ---
 
