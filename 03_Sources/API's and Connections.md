@@ -32,7 +32,7 @@ Describe the authentication methods used for API's and connections relevant to y
 
 # Connection Types
 
-*Describe the different types of connections used in this project.*
+*Describe the different types of connections used in this project. You may also include how they are connected if you feel the need for the detail if working with a newer team. This is particularly helpful for ad hoc request fixes.*
 
 - Rest API's: Endpoints, request/response formats (JSON, XML)
 - Database Connections
@@ -50,7 +50,7 @@ Define any rate limits imposed by external APIs and strategies to handle them. T
 
 # Data Formats and Transformation
 
-*Describe how the data is received and transformed. This will depend on Rest APIs, file based sources, etc. Try to not fall into too much depth here as this should mostly be handling by the architecture section. If you feel the need, you can link to those files here as well.  
+*Describe how the data is received and transformed. This will depend on Rest APIs, file based sources, etc. Try to not fall into too much depth here as this should mostly be handling by the architecture section. However, if you have funky conversion (custom python script to convert xml to csv, this should be mentioned here, as well as where to find this conversion file). If you feel the need, you can link to those files here as well.  
 
 - Common data formats: (JSON, XML, Parquet, CSV)
 - Schema evolution: How do changes in API responses affect downstream processing?
@@ -58,7 +58,7 @@ Define any rate limits imposed by external APIs and strategies to handle them. T
 
 # Error Handling and Monitoring
 
-*Define how API failures, downtime, and errors are managed. Note that this should be copied near 1:1 in your troubleshooting section within SOURCES.*
+*Define how API failures, downtime, and errors are managed.  Note that this should be copied near 1:1 in your troubleshooting section within SOURCES.*
 
 - Error codes & responses: How to handle HTTP 400s, 500s, timeouts, etc.
 - Logging and Monitoring: Are API failures logged? How are errors surfaced?
