@@ -10,7 +10,7 @@ Business Context and Objectives
 
 
 
-*_Blip on understanding business goals being important to project. This file should serve as a non-technical overview of the goal of the project, as well as a few technical nods towards terminology that may appear throughout conversations. This document should prepare the reader to participate in discussions surrounding the project, as well as understand the goals of the company. This will enable engineers and analyssts to address the actual tasks at hand, instead of parallel questions/problems. _*
+*Blip on understanding business goals being important to project. This file should serve as a non-technical overview of the goal of the project, as well as a few technical nods towards terminology that may appear throughout conversations. This document should prepare the reader to participate in discussions surrounding the project, as well as understand the goals of the company. This will enable engineers and analyssts to address the actual tasks at hand, instead of parallel questions/problems.*
 
 
 # Background
