@@ -10,7 +10,7 @@
 
 # Overview
 
-*blurb discussing what is included in this file.*
+*This document provides an inventory of all data source systems integrated into the project. It outlines each source's purpose, access details, data characteristics, and dependencies. This ensures transparency in how data flows into the system and helps assess the impact of changes.*
 
 
 # Contacts
