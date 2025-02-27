@@ -77,15 +77,6 @@ Define **how expired data is automatically deleted** to enforce retention polici
 ## 4. Compliance & Legal Considerations  
 Ensure **data retention policies** align with **legal, security, and privacy regulations**.  
 
-- **Regulatory Compliance:**  
-  - **GDPR:** Right to be forgotten, data minimization  
-  - **CCPA:** Data access and deletion rights  
-  - **HIPAA/SOX (if applicable)**  
-- **Data Subject Requests:**  
-  - How to handle **requests for data access or deletion**  
-- **Encryption & Security:**  
-  - Ensure **sensitive data is encrypted** even during retention  
-
 > **Non-compliance can result in legal penalties—ensure policies align with regulations.**  
 
 ---
