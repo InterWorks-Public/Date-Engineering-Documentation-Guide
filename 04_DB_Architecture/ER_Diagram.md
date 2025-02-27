@@ -10,7 +10,7 @@
 ## Overview  
 This document contains the **Entity-Relationship (ER) Diagram** for the project’s **database architecture**.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - The **ER Diagram** should be kept **up to date** as schema changes occur.  
 > - Use this diagram to **understand relationships** between entities, **foreign keys, and dependencies**.  
 > - If modifications are required, update both the **diagram and schema documentation**.  
