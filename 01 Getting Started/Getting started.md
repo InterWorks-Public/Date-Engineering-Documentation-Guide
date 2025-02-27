@@ -46,7 +46,7 @@ List the **tools used throughout the project**, along with their **associated lo
 - **Tableau** : _Reporting & visualization setup_  
 - **Other Tools** : _List any additional dependencies_  
 
-> **🔗 Related Documentation:** See **[Access and Logins](access_logins.md)** for full authentication details.  
+> **Related Documentation:** See **[Access and Logins](access_logins.md)** for full authentication details.  
 
 ---
 
