@@ -23,7 +23,7 @@ blurb here about what the document's topic.
 ---
 
 
-## How This Fits with Other Documentation  
+## Related Docs 
 - **["example doc"](example.md)** → brief description what the other doc is about if you wants**.  
 
 
