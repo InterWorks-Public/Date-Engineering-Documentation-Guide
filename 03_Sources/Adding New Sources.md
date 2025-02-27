@@ -55,7 +55,7 @@
 
 *Dev environment*
 
-- Was the integration test in staging/dev first?
+- Was the integration test in staging/dev first? Make sure multiple people verify this, or utilize your curernt QA process that is in place.
 
 *Data validation*
 - are row counts and data types consistent with expectations?
