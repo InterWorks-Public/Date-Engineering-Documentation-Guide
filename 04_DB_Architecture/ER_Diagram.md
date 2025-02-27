@@ -17,10 +17,10 @@ This document contains the **Entity-Relationship (ER) Diagram** for the project�
 
 ---
 
-## 1. ER Diagram 📌  
+## 1. ER Diagram 
 The **ER Diagram** should be embedded below or linked as an image/PDF for easy reference.  
 
 ### **Diagram Format Options:**  
-- **📌 Preferred:** Directly embed the diagram if supported by your documentation tool.  
+- **Preferred:** Directly embed the diagram if supported by your documentation tool.  
 - **Alternative:** Provide a **download link** if the diagram is too large.  
 
