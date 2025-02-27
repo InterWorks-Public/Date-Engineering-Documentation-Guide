@@ -16,6 +16,18 @@ This document outlines **database and system permissions**, detailing **access l
 
 ---
 
+## Contacts  
+These contacts should include:  
+- **Who maintains this documentation**  
+- **Who to contact when issues arise**  
+- **Who has expertise in specific troubleshooting areas**  
+
+| Name  | Organization   | Role                                  | Contact Information |
+|-------|--------------|---------------------------------------|---------------------|
+|       | Data/Analytics | The role of the person in the project | email/phone |
+
+---
+
 ## 1. Role-Based Access Control (RBAC)  
 Define **roles and their corresponding access levels** within the system.  
 
