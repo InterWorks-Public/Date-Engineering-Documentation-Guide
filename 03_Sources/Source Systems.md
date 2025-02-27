@@ -23,7 +23,36 @@
 | Linkedin | S3 | Data Team   | Hourly | CSV| REST |
 | Mapping File #1 | S3 | Data Team   | Monthly | CSV| Manual |
 
+# Source System Details: 
 
+*For each source, provide a deeper Technical Overview. You may also splt thes out into individual subfiles if you wish, that is up to you and your team. This will have some overlap with other source docs, which is okay. If you want to link them in for even more granularity, this is a good idea if it works for you!*
+
+*Example: Salesforce API*
+- Purpose: provides customer interaction data for analytics
+- Access: API authentication using Oauth 2.0. Credentials stored in Azure Key vault
+- Connection Details:
+     - Endpoint: https://api.salesforce.com/data/1235/
+     - Rate Limits: 10,000 calls per hour
+     - Pagination: uses nextPageToken for incremental data fetching
+- Data Structure:
+     - Entities: Leads, Opportunites, Accounts, Contacts
+     - Schema Considerations: Some fields are Nullable, JSON response varies by version.
+- Dependencies: Used in ETL pipeline for big lead scoring models.
+
+
+# Data Flow and Dependencies
+
+*Describe how data moves from source systems into the projects' pipelines. 
+- Ingestion methods: Batch, real-time
+- Processing stages (you may/should) include visuals here for clarity
+- transformation tools
+- Downstram usage: Which views, dashboards, etc is this source impacting.
+
+*You should really include a data flow diagram here if possible. This will serve as a more specific and microscopic version of what you see in the "HIGH LEVEL OVERVIEW" diagram in section 02 of your documentation. 
+
+# Change management
+
+*Define how updates to source systems are handled to prevent breaking changes 
 
 # Contacts
 
