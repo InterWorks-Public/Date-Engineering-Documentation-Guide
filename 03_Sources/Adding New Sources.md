@@ -55,7 +55,7 @@
 
 *Dev environment*
 
-Was the integration test in staging/dev first?
+- Was the integration test in staging/dev first?
 
 *Data validation*
 - are row counts and data types consistent with expectations?
