@@ -24,11 +24,11 @@ Business Context and Objectives
 
 -   Fivetran
 
--   *Snowflake*
+-   Snowflake
 
--   *Tableau*
+-   Tableau
 
--   *Etc.*
+-   Etc.*
 
 # Contributers:
 
