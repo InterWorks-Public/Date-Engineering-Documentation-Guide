@@ -11,6 +11,15 @@
 
 *Troubleshooting information for each of the topics above. This is best if its a folder containing subfolders for each of the following topics:*
 
+
+
+# Contacts
+*These contacts should include who keeps this documentation up to date, as well as who to talk to in case you cannot figure it out. Include specific details on the Role here to know who has exeperience with exactly what.*
+
+| Name | Organization   | Role                                  | Contact Information |
+|------|----------------|---------------------------------------|---------------------|
+|      | data/analytics | The role of the person in the project | email/phone         |
+
 # API Troubleshooting 
 
 ### Error Handling and Monitoring
@@ -61,9 +70,3 @@
 
 
 
-
-# Contacts
-
-| Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
