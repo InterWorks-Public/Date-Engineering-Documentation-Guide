@@ -20,13 +20,13 @@ Business Context and Objectives
 
 * List any tools to be used throughout the project, as well as associated login instructions. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
 
--   AWS S3
+-   AWS S3 : ___
 
--   Fivetran
+-   Fivetran: ___
 
--   Snowflake
+-   Snowflake: ___
 
--   Tableau
+-   Tableau: ___
 
 -   Etc.
 
