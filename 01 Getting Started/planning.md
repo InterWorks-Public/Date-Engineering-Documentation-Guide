@@ -20,6 +20,16 @@ Business Context and Objectives
 
 * List any tools to be used throughout the project, as well as associated login instructions. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
 
+* -   *AWS S3*
+
+-   Fivetran
+
+-   *Snowflake*
+
+-   *Tableau*
+
+-   *Etc.*
+
 # Contributers:
 
 #List of people working on the project, and their responsibilities. This should serve as a "phone book" for anyone working on the project directly or indirectly. Be sure to add and update this section as needed throughout the course of the project.
@@ -29,21 +39,6 @@ Business Context and Objectives
 |------|------------------------------------------------|---------------------------------------|---------------------|
 |      | data/analytics, Company X, external            | The role of the person in the project | email/phone         |
 
-
-
-## Software / Tools
-
-*List out any relevant software*
-
--   *AWS S3*
-
--   Fivetran
-
--   *Snowflake*
-
--   *Tableau*
-
--   *Etc.*
 
 
 # Terminology
