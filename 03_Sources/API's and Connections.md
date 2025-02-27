@@ -9,7 +9,7 @@
 ## Overview  
 This document provides details on **API integrations, authentication mechanisms, and data exchange formats** used in this project. It serves as a reference for understanding how external and internal systems connect to retrieve and send data.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - If you have **many sources**, consider splitting this document into **individual files per source** to improve clarity.  
 > - If you only have a **few** sources, keeping everything in one file is fine.  
 > - These guidelines are **suggestions**—feel free to adapt them to your needs!  
@@ -35,7 +35,7 @@ Describe the authentication methods used for APIs and connections relevant to yo
 - **Security Considerations:**  
   - Encryption in transit, access control policies, logging  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - If handling multiple sources, **split this section into separate files per source** for better clarity.  
 
 ---
@@ -48,7 +48,7 @@ Describe the different types of **connections** used in this project.
 - **Streaming Sources** – (Kafka, Kinesis, Pub/Sub)  
 - **File-Based Sources** – (SFTP, AWS S3, Azure Blob, Google Cloud Storage)  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - If working with a **newer team**, consider documenting **how** these connections are established.  
 > - This is especially helpful for **ad hoc fixes** and debugging connection issues.  
 
@@ -62,7 +62,7 @@ Define **rate limits imposed by external APIs** and **strategies** to handle the
 - **Pagination Strategies:** Handling large data extractions  
 - **Retry Logic:** How does the system handle failures (e.g., exponential backoff)?  
 
-> **🔗 Related Section:**  
+> **Related Section:**  
 > If rate limits are **expected to be met frequently**, this should be escalated as a **wider client concern**. Otherwise, link to your **troubleshooting guide** for rate limit issues.  
 
 ---
@@ -77,7 +77,7 @@ Describe how the **data is received and transformed** before storage or processi
   - Are there preprocessing actions before data is stored?  
   - Are there validation rules in place?  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - Keep this section **brief**, as deeper architecture details should live in the **data modeling or ETL pipeline** documentation.  
 > - **Exceptions:** If you have a **custom script** (e.g., Python to convert XML → CSV), link to the file here.  
 
@@ -95,7 +95,7 @@ Define how **API failures, downtime, and errors** are managed.
   - Are there automated alerts for API failures?  
   - What monitoring tools are used?  
 
-> **🔗 Related Section:**  
+> **Related Section:**  
 > This section should be **copied nearly 1:1** in the **03_SOURCES** troubleshooting section.  
 
 ---
@@ -111,7 +111,7 @@ Define how the system handles **connection failures**.
 - **Disaster Recovery Considerations:**  
   - Backup plans for persistent failures  
 
-> **🔗 Related Section:**  
+> **Related Section:**  
 > This section should also be **copied 1:1** into the **03_SOURCES** troubleshooting guide.  
 
 ---
@@ -122,9 +122,3 @@ Define how the system handles **connection failures**.
 
 ---
 
-## How This Fits with Other Documentation  
-- **["Source Systems"](source_systems.md)** → High-level details on all integrated sources  
-- **["Adding New Sources"](adding_new_sources.md)** → Integration steps for new APIs  
-- **["Extraction Details"](extraction_details.md)** → Data retrieval and processing  
-
----
