@@ -13,7 +13,7 @@ Provide details about the **password vault**, including:
 - **Who to contact for access**  
 - **What is and isn’t included in the vault**  
 
-> **📌 Best Practice:** Ensure credentials are stored **securely** and are **never shared via email or chat**.  
+> **Best Practice:** Ensure credentials are stored **securely** and are **never shared via email or chat**.  
 
 ---
 
@@ -24,7 +24,7 @@ Include relevant details about **Two-Factor Authentication (2FA)**:
 - Whether **2FA setup** is managed **centrally or per project**  
 - **Who is required to enable 2FA** and the **reasoning behind it**  
 
-> **📌 Security Note:** If 2FA is required, ensure **clear setup instructions** are documented to avoid delays in access.  
+> **Security Note:** If 2FA is required, ensure **clear setup instructions** are documented to avoid delays in access.  
 
 ---
 
@@ -36,7 +36,7 @@ Document any **unique login-related details**, such as:
 - **Non-obvious authentication setups** for ad-hoc fixes  
 - **Additional clarifications** for users unfamiliar with the project  
 
-> **📌 Best Practice:** This section may be **further broken down** into subsections **as needed** for clarity.  
+> **Best Practice:** This section may be **further broken down** into subsections **as needed** for clarity.  
 
 ---
 
@@ -47,7 +47,7 @@ Outline **VPN-related information**, including:
 - **Usage policies**  
 - **Security considerations**  
 
-> **📌 Security Alert:** If VPN access is **required**, ensure documentation includes **specific steps** to request and set it up.  
+> **Security Alert:** If VPN access is **required**, ensure documentation includes **specific steps** to request and set it up.  
 
 ---
 
@@ -57,7 +57,7 @@ Capture any remaining **security details** not covered above, including:
 - **Additional legal or compliance requirements**  
 - **Redundant security measures** for thoroughness  
 
-> **📌 Compliance Reminder:** Ensure all security measures **align with company policies** and **industry regulations**.  
+> **Compliance Reminder:** Ensure all security measures **align with company policies** and **industry regulations**.  
 
 ---
 
@@ -68,7 +68,7 @@ A list of key **individuals involved** in login and authentication setup.
 |----------|--------------------------------|----------|-------------------------|
 |          | Data/Analytics, Company X, External | Role in Project | Email/Phone |
 
-> **📌 Best Practice:** Keep this contact list **up to date** to ensure smooth access request handling.  
+> **Best Practice:** Keep this contact list **up to date** to ensure smooth access request handling.  
 
 ---
 
