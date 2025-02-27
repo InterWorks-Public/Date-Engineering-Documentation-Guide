@@ -1,13 +1,17 @@
 Business Context and Objectives
 
-{{ Your Company Name }}
+{ Your Company Name }
 
-{{ Author }}
+{ Author  }
 
-{{DATE}}
+{ Date }
+
+{ Version }
 
 
-*Understanding the project’s business goals is the first step. As a data professional you must translate these objectives into a clear data problem and outline a preliminary plan. Since customers often have competing priorities, it’s crucial to identify key factors early to ensure efforts align with real needs. Skipping this step risks solving the wrong problem efficiently.*
+
+*_Blip on understanding business goals being important to project. This file should serve as a non-technical overview of the goal of the project, as well as a few technical nods towards terminology that may appear throughout conversations. This document should prepare the reader to participate in discussions surrounding the project, as well as understand the goals of the company. This will enable engineers and analyssts to address the actual tasks at hand, instead of parallel questions/problems. _*
+
 
 # Background
 
