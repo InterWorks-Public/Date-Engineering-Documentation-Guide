@@ -1,46 +1,93 @@
-# Getting Started
+# Getting Started  
+**{ Your Company Name }**  
+**Author:** { Author }  
+**Date:** { Date }  
+**Version:** { Version }  
 
-{ Your Company Name }
+---
 
-{ Author  }
+## Overview  
+Before beginning, **new users** should **read through the documentation** (at least structurally) to **familiarize themselves** with where key information is located.  
 
-{ Date }
+> **📌 Best Practice:**  
+> - **Understand how information is organized** to quickly find relevant sections.  
+> - Review **important dependencies, access requirements, and tools** used in this project.  
+> - If unsure where to start, check the **Contributors & Contacts** section.  
 
-{ Version }
+---
 
+## 1. Contributing to the Documentation  
+This section outlines how to **suggest edits, contribute new documentation, and adhere to style guidelines**.  
 
+### **Editing & Contributions**  
+- If you find an error or missing information, follow the **company's documentation update process**.  
+- Suggested edits should be reviewed by **designated maintainers** before publishing.  
 
-*Encourage the reader to read the documentation (at least structurally) in its entirety on the first pass if they have not worked with this template before, to at least familiarize themselves with where things are found. explain how info is found, and other general "how to use the docs" info.*
+### **Style Guidelines**  
+- Maintain **consistency in formatting** (headings, bullet points, code blocks).  
+- Follow company-specific writing conventions (if applicable).  
 
-# Contributing to the Docs
+> **📌 If your company already has a documentation setup, list the process here.**  
 
-*Describe the process for contributing the docs, suggesting edits, or contacts for this. Any style guidelines should be included here as well. If your company has a setup already for this, list it here. This should provide foundational guidance for new documentation writers or project members being added throughout the process.*
+---
 
-# Tools, Dependencies and Access/Logins
+## 2. Tools, Dependencies, and Access/Logins  
+List the **tools used throughout the project**, along with their **associated login instructions**.  
 
-*List any tools to be used throughout the project, as well as associated login instructions. You can instead just refer the reader to the separate "Access and Logins File if this is more extensive than simple logins. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
+> **📌 Best Practice:**  
+> - If login/access details are **extensive**, refer to the **[Access and Logins](access_logins.md)** section.  
+> - If tools require **installation**, include **setup instructions** below.  
 
-Example: 
+### **Example Tools List:**  
 
--   AWS S3 : ___
+- **AWS S3** : _Description & access details_  
+- **Fivetran** : _Connection & configuration info_  
+- **Snowflake** : _User roles & permissions_  
+- **Tableau** : _Reporting & visualization setup_  
+- **Other Tools** : _List any additional dependencies_  
 
--   Fivetran: ___
+> **🔗 Related Documentation:** See **[Access and Logins](access_logins.md)** for full authentication details.  
 
--   Snowflake: ___
+---
 
--   Tableau: ___
+## 3. Contributors  
+A list of **project members** and their **responsibilities**.  
 
--   Etc.
+> **📌 Best Practice:**  
+> - This should serve as a **"phone book"** for anyone working on the project.  
+> - Ensure **this section is updated** as the project evolves.  
 
-# Contributers:
+### **Contributor Directory**  
 
-#List of people working on the project, and their responsibilities. This should serve as a "phone book" for anyone working on the project directly or indirectly. Be sure to add and update this section as needed throughout the course of the project.
+| **Name** | **Organization/Client/Internal or External** | **Role** | **Contact Information** |
+|----------|-------------------------------------------|----------|-------------------------|
+|          | Data/Analytics, Company X, External      | The role of the person in the project | Email/Phone |
 
+---
 
-| Name | Organization/Client/Internal or External ETC   | Role                                  | Contact Information |
-|------|------------------------------------------------|---------------------------------------|---------------------|
-|      | data/analytics, Company X, external            | The role of the person in the project | email/phone         |
+## Next Steps  
+- **If new to the project**, familiarize yourself with:  
+  - **Tools & Access** → See **[Access and Logins](access_logins.md)**  
+  - **Project Documentation** → See **[Source Systems](source_systems.md)**  
+  - **Data Pipelines** → See **[Extraction Details](extraction_details.md)**  
 
+- **If contributing to the documentation**, follow the **style guide and contribution process** outlined above.  
 
+---
 
+## How This Fits with Other Documentation  
+- **["API’s and Connections"](api_connections.md)** → Covers authentication and API setup  
+- **["Source Systems"](source_systems.md)** → Provides high-level details on all integrated sources  
+- **["Troubleshooting"](troubleshooting.md)** → Details solutions for common issues  
 
+---
+
+## Why This Version Works for Existing Projects  
+✅ **Encourages structured onboarding** → Helps new contributors get started efficiently.  
+✅ **Prioritizes documentation consistency** → Ensures all contributions follow the same guidelines.  
+✅ **Provides a clear list of dependencies & tools** → Helps users set up their working environment quickly.  
+✅ **Links related documentation** → Makes navigation **seamless** between topics.  
+
+---
+
+🚀 **Now everything is properly formatted and ready to use!** Let me know if you need **any refinements.** 🔥  
