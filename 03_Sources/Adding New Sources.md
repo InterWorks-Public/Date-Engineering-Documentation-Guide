@@ -16,7 +16,7 @@
 
 *Document why this new source is being added and what it needs to support. You will alter use this in the overview section of the documentation for your new source. Here you want to consider the "why", its impact on existing systems, and how it will integrate into current source systems. Remember that you need to get very clear approval from the client for this, as well as clarity on the business purpose so you make sure you fulfill the request they having in mind, not just integrating the source to integrate it. Make sure you have the final views or tables it should lead up to in mind as you do this.*
 
-# Documenting your new source
+# Documenting your new source + Set up for success
 
 *Remember that setting up your documentation (at least a skeleton) will also help clarify any questions you may need answered by your client, and provide a clear roadmap for implementing the addition of a new source. In this way, barebones documentation of you new source by answering the following topics may be helpful to do before actual setup.*
 
