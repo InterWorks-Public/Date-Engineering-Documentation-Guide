@@ -10,7 +10,7 @@
 ## Overview  
 This document provides a **detailed breakdown** of the **database schema**, including **tables, columns, data types, constraints, and relationships**.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - Ensure schema definitions **stay up to date** as the database evolves.  
 > - Use **consistent naming conventions** for tables and columns.  
 > - Define **relationships, constraints, and indexing** strategies clearly.  
@@ -26,7 +26,7 @@ Provide a **high-level structure** of the database, outlining **schemas, key tab
 | **analytics** | Processed and cleaned data | Reporting & BI |
 | **core** | Main operational tables | Production data transactions |
 
-> **📌 Each schema serves a specific function** to support ETL processes and system architecture.  
+> **Each schema serves a specific function** to support ETL processes and system architecture.  
 
 ---
 
@@ -44,7 +44,7 @@ Provide **detailed definitions** for key tables and columns, including **data ty
 | `created_at` | `TIMESTAMP` | No | ❌ No | Timestamp when user was created |
 | `updated_at` | `TIMESTAMP` | Yes | ❌ No | Last modified timestamp |
 
-> **📌 Use clear, descriptive column names** to improve schema readability.  
+> **Use clear, descriptive column names** to improve schema readability.  
 
 ---
 
@@ -60,7 +60,7 @@ Define **constraints and indexing strategies** to ensure **data integrity and pe
 - **Non-Clustered Indexes** → Created on frequently queried columns.  
 - **Partitioning Strategies** → Improves performance on large datasets.  
 
-> **📌 Index only when necessary** to avoid unnecessary overhead.  
+> **Index only when necessary** to avoid unnecessary overhead.  
 
 ---
 
@@ -75,7 +75,7 @@ Establish **consistent naming conventions** for schemas, tables, and columns.
 | Foreign Key | `fk_<table>_<column>` | `fk_orders_user` |
 | Index | `idx_<table>_<column>` | `idx_users_email` |
 
-> **📌 Following naming conventions improves database organization and maintenance.**  
+> **Following naming conventions improves database organization and maintenance.**  
 
 ---
 
@@ -86,7 +86,7 @@ Define **key entity relationships** and how tables interact within the schema.
 - **`users` ↔ `orders`** → One-to-Many  
 - **`products` ↔ `categories`** → Many-to-One  
 
-> **📌 Clearly defining relationships helps optimize data consistency and retrieval.**  
+> **Clearly defining relationships helps optimize data consistency and retrieval.**  
 
 ---
 
@@ -104,7 +104,7 @@ Define the process for **modifying schema definitions** while minimizing disrupt
 - Use **incremental versioning** for modifications.  
 - Tag schema versions using **YYYYMMDD format** (`v_20240201`).  
 
-> **📌 Keeping a structured schema change process prevents unexpected issues.**  
+> **Keeping a structured schema change process prevents unexpected issues.**  
 
 ---
 
