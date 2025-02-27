@@ -100,7 +100,7 @@ Define strategies for handling **extraction failures and partial data loads**.
 | Schema Change   | Log issue, alert data engineers |
 | Missing Data    | Skip batch, retry next cycle |
 
-> **📌 Ensures robustness** in handling extraction failures.  
+> **Ensures robustness** in handling extraction failures.  
 
 ---
 
