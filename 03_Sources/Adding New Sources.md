@@ -10,7 +10,7 @@
 
 # Overview
 
-*blurb discussing what is included in this file.*
+*This document provides a structured process for integrating new data sources into the project. It outlines key considerations, required configurations, and best practices to ensure seamless data ingestion and integration.*
 
 
 # Contacts
