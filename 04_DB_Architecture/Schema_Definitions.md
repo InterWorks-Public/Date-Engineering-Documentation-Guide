@@ -102,7 +102,7 @@ Define **key entity relationships** and how tables interact within the schema.
 
 ---
 
-## 6. Schema Updates & Versioning  
+## 6. Schema Updates
 Define the process for **modifying schema definitions** while minimizing disruptions.  
 
 ### **Schema Change Process:**  
@@ -110,13 +110,6 @@ Define the process for **modifying schema definitions** while minimizing disrupt
 2. **Review & approval** by the data engineering team.  
 3. **Apply changes in staging** before deploying to production.  
 4. **Document updates** in this file and version control logs.  
-
-### **Version Control & Change Tracking:**  
-- Maintain schema changes in **source control (e.g., Liquibase, Flyway, dbt)**.  
-- Use **incremental versioning** for modifications.  
-- Tag schema versions using **YYYYMMDD format** (`v_20240201`).  
-
-> **Keeping a structured schema change process prevents unexpected issues.**  
 
 ---
 
