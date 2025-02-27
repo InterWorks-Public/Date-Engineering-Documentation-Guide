@@ -11,9 +11,9 @@
 
 *Troubleshooting information for each of the topics above. This is best if its a folder containing subfolders for each of the following topics: *
 
-## API Troubleshooting 
+# API Troubleshooting 
 
-# Error Handling and Monitoring
+## Error Handling and Monitoring
 
 *Define how API failures, downtime, and errors are managed.*
 
@@ -22,7 +22,7 @@
 - Alerting and Notifications: Are these automated alerts for API failures?
 
 
-# Connection Failures and Recovery
+## Connection Failures and Recovery
 
 *How does the sytem handle connection failures?*
 
