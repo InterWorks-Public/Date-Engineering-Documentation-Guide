@@ -32,7 +32,7 @@ Include relevant details about **Two-Factor Authentication (2FA)**:
 Document any **unique login-related details**, such as:  
 
 - **Shared access protocols**  
-- **SSMS `sa` account information**  
+- **SSMS sa account information**  
 - **Non-obvious authentication setups** for ad-hoc fixes  
 - **Additional clarifications** for users unfamiliar with the project  
 
