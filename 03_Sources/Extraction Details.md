@@ -120,6 +120,8 @@ Define **automated checks** to ensure **data accuracy** during extraction.
 - Are **outliers flagged** (e.g., negative prices, extreme values)?
 > **📌 Prevents bad data from propagating through the pipeline.
 
+---
+
 ## 6. Performance Monitoring & Scaling Considerations  
 Define strategies for **optimizing extraction** as data volumes grow.  
 
