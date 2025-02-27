@@ -70,16 +70,3 @@ Define best practices for efficient data extraction from APIs and databases.
   - Are API calls or queries executed in parallel to optimize runtime?  
   - Are there mechanisms to retry failed requests without reprocessing successful ones?  
 
-### Example:  
-
-```sql
-SELECT id, name, created_at
-FROM users
-WHERE updated_at >= DATEADD(DAY, -1, GETDATE()) -- Incremental extraction
-ORDER BY updated_at DESC;
-
-# Contacts
-
-| Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
