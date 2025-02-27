@@ -1,99 +1,140 @@
-# Adding New Sources
+# Adding New Sources  
+**{ Your Company Name }**  
+**Author:** { Author }  
+**Date:** { Date }  
+**Version:** { Version }  
 
-{ Your Company Name }
+---
 
-{ Author  }
+## Overview  
+This document provides a structured process for integrating **new data sources** into the project.  
 
-{ Date }
+> **📌 Best Practice:**  
+> - This is a **highly variable task**, so this document should serve as a **guide** rather than a rigid template.  
+> - Answering the questions below will help **streamline documentation** for the new source later.  
+> - Be sure to check the **references list** to see **who to contact for updates to current docs**.  
 
-{ Version }
+---
 
-# Overview
+## Contacts  
 
-*This document provides a structured process for integrating new data sources into the project. As this is a highly variable task, we suggest not modifying this template much outside of the deployment section, and using it as a guide on what sort of questions you need answered from your client and yourself  before going ahead with getting this new source added. Answering the questions below in the second section for yourself will also provide you the framework for the documentation of your new source once you get around to that, to minimize the amount of work needed to add the new docs. Be sure to check out the references list to see who you should reach out to for updates to current docs.* 
+| Name  | Organization   | Role                                  | Contact Information |
+|-------|--------------|---------------------------------------|---------------------|
+|       | Data/Analytics | The role of the person in the project | email/phone |
 
+---
 
+## 1. Business Purpose  
+**Document why this new source is being added and what it needs to support.**  
 
+### **Key Considerations:**  
+- **Why is this data needed?**  
+- **How does it impact existing systems?**  
+- **How will it integrate into current source systems?**  
+- **What are the final tables/views this data will support?**  
+- **Has the client approved this with clear expectations?**  
 
-# Contacts
+> **📌 Best Practice:**  
+> - This section will later form the **Overview** for the new source’s documentation.  
+> - Ensure you have **written client approval** to avoid misalignment on business needs.  
 
-| Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
+---
 
+## 2. Documenting Your New Source + Setup for Success  
+> **📌 Why document upfront?**  
+> - Helps **identify gaps** in understanding.  
+> - Provides a **clear roadmap** for implementation.  
+> - Minimizes redundant documentation efforts later.  
 
-# Business Purpose
+### **Define how the new source will connect to the existing system:**  
+- **Source Type:** (API, Cloud Storage, Streaming, etc.)  
+- **Authentication Requirements:** (OAuth, API Key, VPN, etc.)  
+- **Storage or Access Constraints:** (IP whitelisting, read vs. write access)  
 
-*Document why this new source is being added and what it needs to support. You will alter use this in the overview section of the documentation for your new source. Here you want to consider the "why", its impact on existing systems, and how it will integrate into current source systems. Remember that you need to get very clear approval from the client for this, as well as clarity on the business purpose so you make sure you fulfill the request they having in mind, not just integrating the source to integrate it. Make sure you have the final views or tables it should lead up to in mind as you do this.*
+### **Describe how the data will be extracted & processed within the pipeline:**  
+- **Frequency:** (Real-time, Hourly, Daily, Monthly)  
+- **Volume:** (Expected data size)  
+- **Incremental vs. Full Load**  
+- **Data Format:** (JSON, Parquet, CSV, etc.)  
+- **Existing Tooling & Orchestration:**  
+  - Does **Matillion, dbt, or Airflow** need modifications?  
+  - Can this **leverage an existing ETL/ELT job**, or does it require a **new one**?  
 
-# Documenting your new source + Set up for success
+### **Define how new data sources align with existing data structures:**  
+- **Schema Comparison:** How does the new data compare to existing tables?  
+- **New vs. Existing Tables:** Will this data fit into an existing structure?  
+- **Deduplication Strategy:** Are there risks of duplicate records?  
+- **Backward Compatibility:** Will this introduce breaking changes?  
 
-*Remember that setting up your documentation (at least a skeleton) will also help clarify any questions you may need answered by your client, and provide a clear roadmap for implementing the addition of a new source. In this way, barebones documentation of you new source by answering the following topics may be helpful to do before actual setup.*
+### **Define how the new source will be monitored & maintained post-integration:**  
+- **Logging & Debugging:** Will logs be collected in a centralized location?  
+- **Alerting Mechanisms:** (Email, Slack, PagerDuty)  
+- **Error Handling Strategy:** What should happen when data fails validation?  
+- **Performance Monitoring:** Should pipeline execution time be tracked?  
 
+> **📌 Best Practice:**  
+> - Setting up documentation early clarifies questions **before implementation begins**.  
 
-*Define how the new source will connect to the existing system:*
+---
 
-- Source type: API, cloud storage, streaming, etc
-- Authentication requirements
-- Storage or access constraints: IP whitelisting, read vs write access
+## 3. Deployment, Testing, and Sign-Off  
 
+### **Development Environment:**  
+- **Was the integration tested in staging/dev first?**  
+  - Ensure **multiple people verify** this.  
+  - Follow the **existing QA process** where applicable.  
 
-*Describe how the data will be extracted and process within the existing pipeline:*
+### **Data Validation:**  
+- **Are row counts and data types consistent with expectations?**  
+- **Do joins with existing datasets behave as expected?**  
+- **Does the client agree with the validation results?** (**Get this in writing!**)  
 
-- Frequency
-- Volume
-- Incremental vs Full
-- Data Format
-- Existing Tooling and Orchestration: Will Matillion, DBT, etc need any modifications? Will this require a new ELT/ETL job or can you leverage an existing one?
+### **Approval Process:**  
+- **Who needs to review and approve this before moving to production?**  
+- **List internal & external reviewers for accountability.**  
 
-*Define how new data sources align with existing data structures:
+### **Deployment Steps:**  
+- **How will the new integration be deployed?**  
+  - Airflow DAG update?  
+  - New storage bucket creation?  
+  - Database schema updates?  
 
-- schema comparison: How does the new data compare to existing tables
-- New vs Existing tables
-- Deduping
-- Backward compatibility
+> **📌 Best Practice:**  
+> - Ensure **comprehensive testing** before deploying to production.  
+> - Get **explicit sign-off** from stakeholders before deployment.  
 
-*Define how the new sourc will be monitoried and maintained post-integration:*
+---
 
-- logging and debugging: will logs be collected in a centralized location
-- Alerting mechanisms: Email, slack, etc
-- Error Handling strategy
-- Performance analysis: do you need to monitor pipeline execution time?
+## 4. Next Steps  
 
+*(No need to change this section for your personal docs, but feel free to do so.)*  
 
-# Deployment, Testing, and Sign-Off
+- If modifying an **existing source**, update the following documentation:  
+  - **Extraction Details**  
+  - **Schema Documentation**  
+  - **Monitoring & Governance**  
 
-*Dev environment*
+- Ensure that governance and monitoring for the **new source** is behaving as expected in **production**.  
+- Thoroughly document the new source in the following:  
+  - **API’s and Connections**  
+  - **Extraction Details**  
+  - **Source Systems**  
 
-- Was the integration test in staging/dev first? Make sure multiple people verify this, or utilize your curernt QA process that is in place.
+---
 
-*Data validation*
-- are row counts and data types consistent with expectations?
-- Do joins with existing datasets behave as expected?
-- Does the client agree with you on the above two? Get this in writing!
+## How This Fits with Other Documentation  
+- **["API’s and Connections"](api_connections.md)** → Covers authentication and connection setup  
+- **["Source Systems"](source_systems.md)** → Provides high-level details on all integrated sources  
+- **["Extraction Details"](extraction_details.md)** → Details how data is retrieved and processed  
 
-*Approval process*
+---
 
-- Who needs to review and approvethis before moving to production? Note internal and external references
+## Why This Version Works for Existing Projects  
+✅ **Minimizes redundant documentation efforts** → Saves time when documenting new sources.  
+✅ **Ensures clear client expectations & approvals** → Reduces scope misalignment.  
+✅ **Focuses on monitoring & governance** → Ensures long-term data quality.  
+✅ **Links to related documentation** → Provides a **structured** way to expand this document as needed.  
 
-*Deplpyment steps* 
+---
 
-- How will the new integration be deployed?
-
-
-# Next steps
-
-*(No need to change this section for your personal docs, but feel free to do so)* 
-
-*If you are modifying an existing source, make sure that the changes are reflection in your current extraction details file, Schema documentaition, as well as any other file that may be affected. You should also ensure that governance and monitoring for this new source is behaving as expected in production as well.*
-
-*Make sure you thoroughly cover documenting this new source. This includes, API's and Connections, Extraction Details, Source systems, etc.*
-
-  
-  
-
-
-
-
-
-
+Would this structure work for you? Let me know if you’d like **any refinements!** 🚀
