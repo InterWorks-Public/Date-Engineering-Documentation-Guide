@@ -113,11 +113,3 @@ Define how **data retention policies** are reviewed, enforced, and updated.
 
 ---
 
-## Next Steps  
-- **Review and validate** retention periods with compliance teams.  
-- **Automate archival & deletion** where possible.  
-- **Monitor policy effectiveness** and adjust based on legal or business requirements.  
-
----
-
-
