@@ -56,7 +56,7 @@ Provide **detailed definitions** for key tables and columns, including **data ty
 | `created_at` | `TIMESTAMP` | No |  No | Timestamp when user was created |
 | `updated_at` | `TIMESTAMP` | Yes |  No | Last modified timestamp |
 
-> **Use clear, descriptive column names** to improve schema readability.  
+> **Use clear, descriptive column names** to improve schema readability. This is especially true if source default names are poor or don't follow client desires. 
 
 ---
 
