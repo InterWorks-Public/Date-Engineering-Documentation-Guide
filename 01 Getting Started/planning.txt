@@ -10,25 +10,22 @@ Business Context and Objectives
 
 
 
-*Blip on understanding business goals being important to project. This file should serve as a non-technical overview of the goal of the project, as well as a few technical nods towards terminology that may appear throughout conversations. This document should prepare the reader to participate in discussions surrounding the project, as well as understand the goals of the company. This will enable engineers and analyssts to address the actual tasks at hand, instead of parallel questions/problems.*
+*Encourage the reader to read the documentation (at least structurally) in its entirety on the first pass if they have not worked with this template before, to at least familiarize themselves with where things are found. explain how info is found, and other general "how to use the docs" info. *
+
+# Contributing to the Docs
+
+*Describe the process for contributing the docs, suggesting edits, or contacts for this. Any style guidelines should be included here as well. If your company has a setup already for this, list it here. This should provide foundational guidance for new documentation writers or project members being added throughout the process.*
+
+# Tools and Dependencies 
+
+* List any tools to be used throughout the project, as well as associated login instructions. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
+
+# Contributers:
+
+#List of people working on the project, and their responsibilities. This should serve as a "phone book" for anyone working on the project directly or indirectly. Be sure to add and update this section as needed throughout the course of the project.
 
 
-# Background
-
-*Any known information about the business and the type of data you'll be dealing with. Is there already a solution in place? What should
-the new solution improve if there is one? This should serve as a field overview, as well as common data practices within this field.*
-
-# Business Objectives
-
-*Describe the customer’s primary objective, from a business perspective, as well as any future or secondary objectives.*
-
-# Inventory of Resources
-
-*List the resources available to the project. People, tools, other relevant documents, legal, etc. This type of field will appear in most documents. *
-
-## Personnel
-
-| Name | Organization   | Role                                  | Contact Information |
+| Name | Organization/Client/Internal or External ETC   | Role                                  | Contact Information |
 |------|----------------|---------------------------------------|---------------------|
 |      | data/analytics | The role of the person in the project | email/phone         |
 
