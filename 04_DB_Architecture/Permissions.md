@@ -84,13 +84,6 @@ Outline the process for **granting, reviewing, and revoking access**.
 2. Specify **role, justification, and required duration** of access.  
 3. Approval required from **Database Owner or Security Team**.  
 
-### **Access Review & Expiry:**  
-- **Quarterly audits** to review user access.  
-- **Automatic expiration** for temporary access.  
-- **Immediate revocation** when an employee leaves the company.  
-
-> **Periodic access reviews prevent unauthorized or outdated access.**  
-
 ---
 
 ## 5. Auditing & Logging  
@@ -104,7 +97,7 @@ Define how **permissions changes and access logs** are tracked.
   - Unauthorized access triggers **security alerts**  
   - Logs should be **retained for at least 12 months**  
 
-> **All permission changes should be logged for security & compliance purposes.**  
+> **All permission changes should be logged for security purposes.**  
 
 ---
 
