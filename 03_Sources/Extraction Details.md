@@ -117,5 +117,40 @@ Define **automated checks** to ensure **data accuracy** during extraction.
 - Do extracted values match **expected data types**?  
 
 ### **Anomaly Detection:**  
-- Are **outliers flagged** (e.g., negative prices, extreme values)?  
+- Are **outliers flagged** (e.g., negative prices, extreme values)?
+
+
+## 6. Performance Monitoring & Scaling Considerations  
+Define strategies for **optimizing extraction** as data volumes grow.  
+
+### **Handling Large Data Volumes:**  
+- Are **extractions split** into smaller partitions?  
+- Are we using **compression formats** (Parquet, Avro) for efficiency?  
+
+### **Scaling Extraction Jobs:**  
+- Are **batch jobs dynamically scaled** based on workload?  
+- Is there an **auto-scaling mechanism** in place for API calls?  
+
+### **Storage & Cost Management:**  
+- Are **redundant data extractions avoided**?  
+- Are extractions **optimized** to minimize cloud storage and compute costs?  
+
+> **📌 Ensures** that extraction processes remain **scalable and cost-efficient** over time.  
+
+---
+
+## Next Steps  
+- If **modifying an existing extraction process**, ensure updates are tested in a **staging environment**.  
+- If a **new source** is being added, ensure it is documented in the **"Source Systems"** and **"Adding New Sources"** documentation.  
+- If an **extraction job is deprecated**, follow the **"Data Governance & Retention"** guidelines.  
+
+---
+
+## How This Fits with Other Documentation  
+- **["Source Systems"](source_systems.md)** → Provides **high-level details** on all integrated sources  
+- **["Adding New Sources"](adding_new_sources.md)** → Covers **integration steps** for new data sources  
+- **["API’s and Connections"](api_connections.md)** → Details **authentication and connection setup**  
+
+---
+
 
