@@ -16,6 +16,18 @@ This document outlines the **data retention policies** for the project’s datab
 
 ---
 
+## Contacts  
+These contacts should include:  
+- **Who maintains this documentation**  
+- **Who to contact when issues arise**  
+- **Who has expertise in specific troubleshooting areas**  
+
+| Name  | Organization   | Role                                  | Contact Information |
+|-------|--------------|---------------------------------------|---------------------|
+|       | Data/Analytics | The role of the person in the project | email/phone |
+
+---
+
 ## 1. Retention Periods  
 Define **how long different types of data should be retained** before archiving or deletion.  
 
