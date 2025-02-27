@@ -1,6 +1,6 @@
 # Access and Logins
 
-## { Your Company Name }
+**{ Your Company Name }
 **Author:** { Author }  
 **Date:** { Date }  
 **Version:** { Version }  
