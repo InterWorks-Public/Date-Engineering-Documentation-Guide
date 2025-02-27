@@ -36,7 +36,6 @@ Define **how long different types of data should be retained** before archiving 
 | **Raw Logs** | 90 Days | Compliance & debugging |
 | **Processed Data** | 1 Year | Business reporting |
 | **Aggregated Data** | 3+ Years | Long-term trend analysis |
-| **Personally Identifiable Information (PII)** | As required by law | Compliance (GDPR, CCPA, etc.) |
 
 > **Retention policies may vary** based on **regulatory requirements** or **business needs**.  
 
