@@ -90,11 +90,7 @@ Ex: login and access is part of getting started's general file, but if this is a
   - Permission-related issues.
   - Missing tables or views.
   - Cloud-specific challenges and resolutions.
-**Purpose:** Database design and implementation details.
-- `ER_Diagram.png`: Entity-relationship diagram illustrating table relationships.
-- `Schema_Definitions.md`: Explanation of schema choices and table definitions.
-- `Indexing_and_Performance.md`: Strategies for optimizing database performance.
-- `Data_Retention.md`: Policies on data storage, archiving, and deletion.
+
 
 ## 05 Transformations
 **Purpose:** Documentation for data processing workflows and transformations.
