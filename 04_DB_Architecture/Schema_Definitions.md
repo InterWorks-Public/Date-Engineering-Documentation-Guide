@@ -49,7 +49,7 @@ Provide **detailed definitions** for key tables and columns, including **data ty
 
 | **Column Name** | **Data Type** | **Nullable?** | **Primary Key?** | **Description** |
 |---------------|------------|------------|-------------|-------------|
-| `user_id` | `UUID` | No | Yes | Unique identifier for each user |
+| `user_id` | `VARCHAR(10)` | No | Yes | Unique identifier for each user |
 | `first_name` | `VARCHAR(100)` | No |  No | User’s first name |
 | `last_name` | `VARCHAR(100)` | No |  No | User’s last name |
 | `email` | `VARCHAR(255)` | No |  No | Unique email address |
