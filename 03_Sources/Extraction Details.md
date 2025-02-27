@@ -143,12 +143,4 @@ Define strategies for **optimizing extraction** as data volumes grow.
 
 ---
 
-## Next Steps  
-- If **modifying an existing extraction process**, ensure updates are tested in a **staging environment**.  
-- If a **new source** is being added, ensure it is documented in the **"Source Systems"** and **"Adding New Sources"** documentation.  
-- If an **extraction job is deprecated**, follow the **"Data Governance & Retention"** guidelines.  
-
----
-
-
 
