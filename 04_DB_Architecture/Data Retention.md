@@ -9,7 +9,7 @@
 ## Overview  
 This document outlines the **data retention policies** for the project’s database architecture, defining how long data should be stored, archived, or deleted.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - Ensure compliance with **legal, security, and business requirements**.  
 > - Define **clear rules** for **retention, archival, and deletion** based on data type.  
 > - Implement **automated processes** where possible to enforce retention policies.  
@@ -26,7 +26,7 @@ Define **how long different types of data should be retained** before archiving 
 | **Aggregated Data** | 3+ Years | Long-term trend analysis |
 | **Personally Identifiable Information (PII)** | As required by law | Compliance (GDPR, CCPA, etc.) |
 
-> **📌 Retention policies may vary** based on **regulatory requirements** or **business needs**.  
+> **Retention policies may vary** based on **regulatory requirements** or **business needs**.  
 
 ---
 
@@ -43,7 +43,7 @@ Define how **older data** is archived for long-term storage.
   - Ensure **efficient storage** to minimize costs.  
   - Use **compression techniques** where applicable.  
 
-> **📌 Data archival should balance storage costs and accessibility needs.**  
+> **Data archival should balance storage costs and accessibility needs.**  
 
 ---
 
@@ -59,7 +59,7 @@ Define **how expired data is automatically deleted** to enforce retention polici
   - Ensure **audit trails** exist for deletion actions.  
   - Store logs of deleted data for **compliance verification**.  
 
-> **📌 Automation ensures that expired data is removed without manual intervention.**  
+> **Automation ensures that expired data is removed without manual intervention.**  
 
 ---
 
@@ -75,7 +75,7 @@ Ensure **data retention policies** align with **legal, security, and privacy reg
 - **Encryption & Security:**  
   - Ensure **sensitive data is encrypted** even during retention  
 
-> **📌 Non-compliance can result in legal penalties—ensure policies align with regulations.**  
+> **Non-compliance can result in legal penalties—ensure policies align with regulations.**  
 
 ---
 
@@ -93,7 +93,7 @@ Define retention policies for **database backups** to ensure recoverability whil
   - **Primary backups** stored in cloud (S3, Azure Blob, GCS)  
   - **Disaster recovery backups** stored in separate regions  
 
-> **📌 Backup retention should align with disaster recovery and compliance needs.**  
+> **Backup retention should align with disaster recovery and compliance needs.**  
 
 ---
 
@@ -107,7 +107,7 @@ Define how **data retention policies** are reviewed, enforced, and updated.
 - **Policy Documentation:**  
   - Ensure retention policies are **accessible and up to date**.  
 
-> **📌 Regular policy reviews prevent outdated retention rules from causing issues.**  
+> **Regular policy reviews prevent outdated retention rules from causing issues.**  
 
 ---
 
@@ -118,10 +118,4 @@ Define how **data retention policies** are reviewed, enforced, and updated.
 
 ---
 
-## How This Fits with Other Documentation  
-- **["Schema Documentation"](schema_documentation.md)** → Defines **tables & data structures**.  
-- **["DB Architecture Overview"](db_architecture.md)** → Covers **storage and data modeling**.  
-- **["ETL & Data Flow"](etl_data_flow.md)** → Details how **data moves through the system**.  
-
----
 
