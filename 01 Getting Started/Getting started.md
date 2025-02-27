@@ -64,14 +64,3 @@ A list of **project members** and their **responsibilities**.
 |          | Data/Analytics, Company X, External      | The role of the person in the project | Email/Phone |
 
 ---
-
-## Next Steps  
-- **If new to the project**, familiarize yourself with:  
-  - **Tools & Access** → See **[Access and Logins](access_logins.md)**  
-  - **Project Documentation** → See **[Source Systems](source_systems.md)**  
-  - **Data Pipelines** → See **[Extraction Details](extraction_details.md)**  
-
-- **If contributing to the documentation**, follow the **style guide and contribution process** outlined above.  
-
----
-
