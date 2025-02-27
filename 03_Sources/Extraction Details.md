@@ -7,20 +7,26 @@
 ---
 
 ## Overview  
-This document provides details on how data is extracted from various source systems into the project’s pipelines. It outlines extraction methods, frequency, transformations applied during extraction, and error handling mechanisms. This ensures a standardized approach to data ingestion while maintaining data integrity and performance.  
+This document provides details on how **data is extracted** from various source systems into the project’s pipelines. It outlines **extraction methods, frequency, transformations applied during extraction, and error handling mechanisms** to ensure a **standardized approach** while maintaining **data integrity and performance**.  
+
+> **📌 Best Practice:**  
+> - This document should be updated whenever an **extraction process is modified** or a **new source is added**.  
+> - Ensure this aligns with **Source Systems** and **Adding New Sources** documentation.  
 
 ---
 
 ## Contacts  
 
-| Name | Organization | Role | Contact Information |
-|------|--------------|------|---------------------|
-|      | Data/Analytics | The role of the person in the project | email/phone |
+| Name  | Organization   | Role                                  | Contact Information |
+|-------|--------------|---------------------------------------|---------------------|
+|       | Data/Analytics | The role of the person in the project | email/phone |
 
 ---
 
 ## 1. Extraction Methods & Frequency  
 Define how data is retrieved from each source system and its schedule.  
+
+### **Example:**  
 
 | Source Name | Extraction Type | Frequency | Incremental? | Extraction Tool |
 |------------|----------------|-----------|-------------|----------------|
@@ -33,19 +39,19 @@ Define how data is retrieved from each source system and its schedule.
 - **Incremental vs. Full Load:** Are new records appended, or is the full dataset refreshed each time?  
 - **Scheduled vs. Event-Driven:** Is the extraction triggered by a scheduler (Airflow, Matillion) or based on external events (e.g., S3 file upload, Kafka message)?  
 
-> Ensures consistent extraction patterns and avoids unnecessary reprocessing.  
+> **📌 Ensures** consistent extraction patterns and prevents unnecessary reprocessing.  
 
 ---
 
 ## 2. Data Transformation During Extraction  
-Describe any transformations applied to raw data before it reaches the pipeline.  
+Describe any **transformations applied** to raw data before it reaches the pipeline.  
 
 - **Standardization:** (Date formatting, currency conversion, casing rules)  
 - **Filtering Logic:** (Removing test data, ignoring inactive records)  
 - **Schema Mapping:** (Source field names → Standardized field names)  
 - **Derived Columns:** (Calculating new fields during extraction)  
 
-### Example:  
+### **Example:**  
 
 | Source | Source Field | Transformed Field | Transformation Rule |
 |--------|-------------|------------------|-------------------|
@@ -53,12 +59,12 @@ Describe any transformations applied to raw data before it reaches the pipeline.
 | Snowflake | `purchase_date` | `purchase_year` | Extract year from timestamp |
 | Google Analytics | `event_category` | `event_type` | Rename for consistency |
 
-> Ensures that extracted data aligns with existing schemas and business rules.  
+> **📌 Ensures** that extracted data aligns with existing schemas and business rules.  
 
 ---
 
 ## 3. API & Query Optimization  
-Define best practices for efficient data extraction from APIs and databases.  
+Define best practices for **efficient data extraction** from APIs and databases.  
 
 - **API Rate Limits & Pagination:**  
   - Are API requests batched or paginated?  
@@ -70,3 +76,10 @@ Define best practices for efficient data extraction from APIs and databases.
   - Are API calls or queries executed in parallel to optimize runtime?  
   - Are there mechanisms to retry failed requests without reprocessing successful ones?  
 
+### **Example:**  
+
+```sql
+SELECT id, name, created_at
+FROM users
+WHERE updated_at >= DATEADD(DAY, -1, GETDATE()) -- Incremental extraction
+ORDER BY updated_at DESC;
