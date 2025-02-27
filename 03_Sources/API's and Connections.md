@@ -1,77 +1,140 @@
-# API's and Connections
+# API's and Connections  
+**{ Your Company Name }**  
+**Author:** { Author }  
+**Date:** { Date }  
+**Version:** { Version }  
 
-{ Your Company Name }
+---
 
-{ Author  }
+## Overview  
+This document provides details on **API integrations, authentication mechanisms, and data exchange formats** used in this project. It serves as a reference for understanding how external and internal systems connect to retrieve and send data.  
 
-{ Date }
+> **📌 Best Practice:**  
+> - If you have **many sources**, consider splitting this document into **individual files per source** to improve clarity.  
+> - If you only have a **few** sources, keeping everything in one file is fine.  
+> - These guidelines are **suggestions**—feel free to adapt them to your needs!  
 
-{ Version }
+---
 
-# Overview
+## Contacts  
 
-*This document provides details on API integrations, authentication mechanisms, and data exchange formats used in this project. It serves as a reference for understanding how external and internal systems connect to retrieve and send data. This can be split up by source if you have many sources, or can be just one file if you have only a few. Remember to treat these as suggestions and not absolute truth. You may need to add more than what is provided, and you may find some of this to be overkill. Take what you want, and leave what you don't!* 
+| Name  | Organization   | Role                                  | Contact Information |
+|-------|--------------|---------------------------------------|---------------------|
+|       | Data/Analytics | The role of the person in the project | email/phone |
 
+---
 
-# Contacts
+## 1. Authentication and Security  
+Describe the authentication methods used for APIs and connections relevant to your sources.  
 
-| Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
+### **Key Topics:**  
+- **Authentication Type:** (OAuth 2.0, API Key, Basic Auth, JWT, etc.)  
+- **Token Expiry & Refresh Process**  
+- **Secrets Management:**  
+  - Where are API keys stored? (Vaults, environment variables, secret managers)  
+- **Security Considerations:**  
+  - Encryption in transit, access control policies, logging  
 
+> **📌 Best Practice:**  
+> - If handling multiple sources, **split this section into separate files per source** for better clarity.  
 
-# Authentication and Security
+---
 
-Describe the authentication methods used for API's and connections relevant to your sources. The following topics can be subdived by source if doing all in one file, but my personal suggestion is always to split this up into multiple files (one for each source) as this will improve clarity, and wont take you much longer to find the specific file the source you are interested in.*
+## 2. Connection Types  
+Describe the different types of **connections** used in this project.  
 
-  - Authentication type
-  - Token Expiry and Refresh Process
-  - Secrets Management: where are API keys stored? Vaults, environment variables, secret managers, etc
-  - Security considerations: Encryption in transcit, access control policies, logging
- 
+- **REST APIs** – Endpoints, request/response formats (JSON, XML)  
+- **Database Connections** – (e.g., Snowflake, PostgreSQL, SQL Server)  
+- **Streaming Sources** – (Kafka, Kinesis, Pub/Sub)  
+- **File-Based Sources** – (SFTP, AWS S3, Azure Blob, Google Cloud Storage)  
 
-# Connection Types
+> **📌 Best Practice:**  
+> - If working with a **newer team**, consider documenting **how** these connections are established.  
+> - This is especially helpful for **ad hoc fixes** and debugging connection issues.  
 
-*Describe the different types of connections used in this project. You may also include how they are connected if you feel the need for the detail if working with a newer team. This is particularly helpful for ad hoc request fixes.*
+---
 
-- Rest API's: Endpoints, request/response formats (JSON, XML)
-- Database Connections
-- Streaming Sources
-- File-Based Sources
+## 3. API Rate Limits and Quotas  
+Define **rate limits imposed by external APIs** and **strategies** to handle them.  
 
-# API Rate Limits and Quotas
+### **Key Topics:**  
+- **Rate Limits:** Requests per second/minute/hour  
+- **Pagination Strategies:** Handling large data extractions  
+- **Retry Logic:** How does the system handle failures (e.g., exponential backoff)?  
 
-Define any rate limits imposed by external APIs and strategies to handle them. This section can tie into any troubleshooting, and if rate limits are expecting to be met, this may be a wider concern that needs to be brought up with the client. Otherwise, linking your troubleshooting information for hitting rate limits may be linked here for ease of use.*
+> **🔗 Related Section:**  
+> If rate limits are **expected to be met frequently**, this should be escalated as a **wider client concern**. Otherwise, link to your **troubleshooting guide** for rate limit issues.  
 
-- Rate Limits
-- Pagination strategies
-- Retry logic
+---
 
+## 4. Data Formats and Transformation  
+Describe how the **data is received and transformed** before storage or processing.  
 
-# Data Formats and Transformation
+### **Key Topics:**  
+- **Common Data Formats:** JSON, XML, Parquet, CSV  
+- **Schema Evolution:** How do API response changes affect downstream processing?  
+- **Standardization & Validation:**  
+  - Are there preprocessing actions before data is stored?  
+  - Are there validation rules in place?  
 
-*Describe how the data is received and transformed. This will depend on Rest APIs, file based sources, etc. Try to not fall into too much depth here as this should mostly be handling by the architecture section. However, if you have funky conversion (custom python script to convert xml to csv, this should be mentioned here, as well as where to find this conversion file). If you feel the need, you can link to those files here as well.  
+> **📌 Best Practice:**  
+> - Keep this section **brief**, as deeper architecture details should live in the **data modeling or ETL pipeline** documentation.  
+> - **Exceptions:** If you have a **custom script** (e.g., Python to convert XML → CSV), link to the file here.  
 
-- Common data formats: (JSON, XML, Parquet, CSV)
-- Schema evolution: How do changes in API responses affect downstream processing?
-- Standardization & Validation: Are there any preprocessing actions before data is stored in cloud or data warehouse?
+---
 
-# Error Handling and Monitoring
+## 5. Error Handling and Monitoring  
+Define how **API failures, downtime, and errors** are managed.  
 
-*Define how API failures, downtime, and errors are managed.  Note that this should be copied near 1:1 in your troubleshooting section within 03_SOURCES.*
+### **Key Topics:**  
+- **Error Codes & Responses:** Handling HTTP 400s, 500s, timeouts, etc.  
+- **Logging & Monitoring:**  
+  - Where are API failures logged? (e.g., DataDog, Splunk, ELK)  
+  - How are errors surfaced?  
+- **Alerting & Notifications:**  
+  - Are there automated alerts for API failures?  
+  - What monitoring tools are used?  
 
-- Error codes & responses: How to handle HTTP 400s, 500s, timeouts, etc.
-- Logging and Monitoring: Are API failures logged? How are errors surfaced?
-- Alerting and Notifications: Are these automated alerts for API failures?
+> **🔗 Related Section:**  
+> This section should be **copied nearly 1:1** in the **03_SOURCES** troubleshooting section.  
 
+---
 
-# Connection Failures and Recovery
+## 6. Connection Failures and Recovery  
+Define how the system handles **connection failures**.  
 
-*How does the sytem handle connection failures? Note that this should be copied near 1:1 in your troubleshooting section within 03_SOURCES.*
+### **Key Topics:**  
+- **Handling Unavailable APIs:**  
+  - Does the system retry, queue requests, or use cached data?  
+- **Database Connection Issues:**  
+  - Failover mechanisms, reconnection strategies  
+- **Disaster Recovery Considerations:**  
+  - Backup plans for persistent failures  
 
-- Handling Unavailable APIs: the syste retry, queue request, or use cached data?
-- Database connection issues: Failover mechanisms, reconnection strats
-- Disaster Recovery considerations: Backup plans for persisten failures
+> **🔗 Related Section:**  
+> This section should also be **copied 1:1** into the **03_SOURCES** troubleshooting guide.  
 
+---
 
+## Next Steps  
+- If modifying an **existing API connection**, ensure the changes are documented in the **"Source Systems"** and **"Extraction Details"** documentation.  
+- If adding a **new API**, ensure it is included in **monitoring workflows**.  
 
+---
+
+## How This Fits with Other Documentation  
+- **["Source Systems"](source_systems.md)** → High-level details on all integrated sources  
+- **["Adding New Sources"](adding_new_sources.md)** → Integration steps for new APIs  
+- **["Extraction Details"](extraction_details.md)** → Data retrieval and processing  
+
+---
+
+## Why This Version Works for Existing Projects  
+✅ **Keeps existing API connections in mind** → Prevents duplication and ensures consistency.  
+✅ **Includes security & authentication details** → Helps with access management and compliance.  
+✅ **Focuses on monitoring & failure recovery** → Ensures system reliability.  
+✅ **Links related documentation** → Provides a **structured** way to expand this document as needed.  
+
+---
+
+Would this structure work for you? Let me know if you’d like **any refinements!** 🚀
