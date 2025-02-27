@@ -28,9 +28,9 @@ The **ER Diagram** should be embedded below or linked as an image/PDF for easy r
 
 ## 2. How to Update the ER Diagram
 When to update: 
-- Schema Changes: New tables, columns or relationships added.
-- Foreign Key adjustments: Any modifications to relationships between tables.
-- Deprecation of tables: If entities are removed from the schema.
+- **Schema Changes:** New tables, columns or relationships added.
+- **Foreign Key adjustments:** Any modifications to relationships between tables.
+- **Deprecation of tables:** If entities are removed from the schema.
 
 How to update:
 - Modify the ER Diagram using a design tool (draw.io, figma, etc)
