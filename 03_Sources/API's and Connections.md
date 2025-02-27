@@ -50,7 +50,7 @@ Define any rate limits imposed by external APIs and strategies to handle them. T
 
 # Data Formats and Transformation
 
-*Describe how the data is received and transformed* 
+*Describe how the data is received and transformed. This will depend on Rest APIs, file based sources, etc. Try to not fall into too much depth here as this should mostly be handling by the architecture section. If you feel the need, you can link to those files here as well.  
 
 - Common data formats: (JSON, XML, Parquet, CSV)
 - Schema evolution: How do changes in API responses affect downstream processing?
