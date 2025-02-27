@@ -96,8 +96,7 @@ Define how **permissions changes and access logs** are tracked.
 - **Incident Response**  
   - Unauthorized access triggers **security alerts**  
   - Logs should be **retained for at least 12 months**  
-
-> **All permission changes should be logged for security purposes.**  
+ 
 
 ---
 
