@@ -12,6 +12,12 @@
 
 *This document provides an inventory of all data source systems integrated into the project. It outlines each source's purpose, access details, data characteristics, and dependencies. This ensures transparency in how data flows into the system and helps assess the impact of changes.*
 
+# Contacts
+
+| Name | Organization   | Role                                  | Contact Information |
+|------|----------------|---------------------------------------|---------------------|
+|      | data/analytics | The role of the person in the project | email/phone         |
+
 
 # Source System Inventory
 
@@ -86,8 +92,3 @@
 - What alternate sources replace the old ones if applicable
 - Are old tables/buckets purged or archived?
 - How long is data retained before deletion? 
-# Contacts
-
-| Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
