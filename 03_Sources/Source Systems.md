@@ -63,7 +63,7 @@ Describe how data moves from source systems into the project’s pipelines.
   - Which views, dashboards, ML models, or reporting tools does this source impact?  
   - What business processes rely on this data?  
 
-> **📌 Best Practice:** Include a **data flow diagram** here. This serves as a **detailed version** of the "High-Level Overview" diagram in Section 02 of your documentation.
+> **Best Practice:** Include a **data flow diagram** here. This serves as a **detailed version** of the "High-Level Overview" diagram in Section 02 of your documentation.
 
 ---
 
@@ -95,7 +95,7 @@ Define how source systems are monitored for **data freshness, consistency, and f
   - Are failures logged? Where? (DataDog, Splunk, ELK, Azure Monitor)  
   - Who gets notified when something breaks?  
 
-> **📌 Best Practice:** Include this in **troubleshooting documentation** to quickly diagnose issues.
+> **Best Practice:** Include this in **troubleshooting documentation** to quickly diagnose issues.
 
 ---
 
@@ -112,7 +112,7 @@ Outline the process for **retiring or replacing** a source system when necessary
   - Are old tables/buckets **purged** or **archived**?  
   - How long is data retained before deletion?  
 
-> **📌 Best Practice:** Regularly review active data sources to avoid **clutter and redundancy**.
+> **Best Practice:** Regularly review active data sources to avoid **clutter and redundancy**.
 
 ---
 
@@ -120,13 +120,6 @@ Outline the process for **retiring or replacing** a source system when necessary
 - Update this document whenever a **new source is added** or **an old one is retired**.  
 - Ensure all changes to source systems are communicated to relevant teams.  
 - Maintain proper **testing & monitoring** workflows for long-term reliability.  
-
----
-
-## How This Fits with Other Documentation  
-- **["API’s and Connections"](api_connections.md)** → Covers authentication and connection setup  
-- **["Adding New Sources"](adding_new_sources.md)** → Covers integration steps for new data sources  
-- **["Extraction Details"](extraction_details.md)** → Explains how data is retrieved and processed  
 
 ---
 
