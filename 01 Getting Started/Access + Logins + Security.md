@@ -47,7 +47,7 @@ Outline **VPN-related information**, including:
 - **Usage policies**  
 - **Security considerations**  
 
-> **Security Alert:** If VPN access is **required**, ensure documentation includes **specific steps** to request and set it up.  
+> **Security Note:** If VPN access is **required**, ensure documentation includes **specific steps** to request and set it up.  
 
 ---
 
