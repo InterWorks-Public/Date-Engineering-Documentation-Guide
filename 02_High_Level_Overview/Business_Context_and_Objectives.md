@@ -15,21 +15,16 @@ Business Context and Objectives
 
 # Background
 
-*Record any known information about the business situation at the start
-of the project. Is there already a solution in place? Describe any
-solutions in place and why they are seeking a new solution. What should
-the new solution improve?*
+*Any known information about the business and the type of data you'll be dealing with. Is there already a solution in place? What should
+the new solution improve if there is one? This should serve as a field overview, as well as common data practices within this field.*
 
 # Business Objectives
 
-*Describe the customer’s primary objective, from a business perspective.
-In addition to the primary business objective, there are typically other
-related business questions that the customer would like to address –
-include those here as well.*
+*Describe the customer’s primary objective, from a business perspective, as well as any future or secondary objectives.*
 
 # Inventory of Resources
 
-*List the resources available to the project. People, password vaults info, tools, other relevant documents, legal, etc.
+*List the resources available to the project. People, tools, other relevant documents, legal, etc.
 
 ## Personnel
 
