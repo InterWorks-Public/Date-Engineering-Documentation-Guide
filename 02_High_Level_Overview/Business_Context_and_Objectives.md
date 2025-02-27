@@ -1,66 +1,95 @@
-Business Context and Objectives
+# Business Context and Objectives  
+**{ Your Company Name }**  
+**Author:** { Author }  
+**Date:** { Date }  
+**Version:** { Version }  
 
-{ Your Company Name }
+---
 
-{ Author  }
+## Overview  
+Understanding **business goals** is crucial for the success of this project.  
 
-{ Date }
+> **📌 Best Practice:**  
+> - This document serves as a **non-technical overview** of the project’s purpose.  
+> - Engineers and analysts should use this as a **guide to align their work** with business objectives.  
+> - Covers key **business terminology** to ensure clear communication in discussions.  
 
-{ Version }
+By defining these **objectives, context, and terminology**, this document helps **reduce confusion and parallel questions**, enabling contributors to **focus on execution**.  
 
+---
 
+## 1. Background  
+Provide relevant context about **the business domain, industry, and data** involved in the project.  
 
-*Blip on understanding business goals being important to project. This file should serve as a non-technical overview of the goal of the project, as well as a few technical nods towards terminology that may appear throughout conversations. This document should prepare the reader to participate in discussions surrounding the project, as well as understand the goals of the company. This will enable engineers and analyssts to address the actual tasks at hand, instead of parallel questions/problems.*
+- **Existing Solutions:** Is there a solution in place?  
+- **Improvements Needed:** What should this new solution **improve upon**?  
+- **Industry Context:** What are common **data practices** in this field?  
 
+> **📌 Understanding the business landscape helps avoid redundant efforts and ensures the project meets real needs.**  
 
-# Background
+---
 
-*Any known information about the business and the type of data you'll be dealing with. Is there already a solution in place? What should
-the new solution improve if there is one? This should serve as a field overview, as well as common data practices within this field.*
+## 2. Business Objectives  
+Define the **primary and secondary objectives** from a **business perspective**.  
 
-# Business Objectives
+- **Primary Goal:**  
+  - What problem does this project solve?  
+  - What key metric or outcome determines success?  
+- **Secondary/Future Goals:**  
+  - Any **long-term objectives** beyond initial implementation?  
 
-*Describe the customer’s primary objective, from a business perspective, as well as any future or secondary objectives.*
+> **📌 Clearly defining business objectives ensures that technical decisions align with real business impact.**  
 
-# Inventory of Resources
+---
 
-*List the resources available to the project. People, tools, other relevant documents, legal, etc. This type of field will appear in most documents. *
+## 3. Inventory of Resources  
+List the **people, tools, and documents** available for the project.  
 
-## Personnel
+### **Personnel**  
+| **Name** | **Organization** | **Role** | **Contact Information** |
+|------|--------------|----------------------------------|---------------------|
+|      | Data/Analytics | The role of the person in the project | Email/Phone |
 
-| Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
+### **Software & Tools**  
+- **AWS S3**  
+- **Fivetran**  
+- **Snowflake**  
+- **Tableau**  
+- **Other relevant tools**  
 
+> **📌 This section ensures team members know what resources are available to them.**  
 
+---
 
-## Software / Tools
+## 4. Terminology  
+A **glossary of business-specific terminology** to improve shared understanding.  
 
-*List out any relevant software*
+| **Term** | **Definition** |
+|---------|--------------|
+| **KPI (Key Performance Indicator)** | A measurable value that indicates success. |
+| **ETL/ELT** | Processes for extracting, transforming, and loading data. |
+| **Data Pipeline** | The automated process of moving and transforming data. |
+| **BI (Business Intelligence)** | Tools and strategies for data analysis and reporting. |
 
--   *AWS S3*
+> **📌 This section prevents miscommunication and ensures alignment in discussions.**  
 
--   Fivetran
+---
 
--   *Snowflake*
+## 5. Project Outputs  
+Define the **expected deliverables** that will support business objectives.  
 
--   *Tableau*
+- **Data Outputs:** What datasets will be produced?  
+- **Pipelines & Automation:** What workflows need to be implemented?  
+- **Reports & Dashboards:** What reporting needs to be available?  
 
--   *Etc.*
+> **📌 This section connects the project’s **technical execution** to **business goals**, ensuring a clear path to success.**  
 
+---
 
-# Terminology
+## Next Steps  
+- **Ensure all contributors** read and understand this document.  
+- **Validate business objectives** with key stakeholders.  
+- **Align project outputs** with measurable business goals.  
 
-*Compile a glossary of relevant business terminology, which forms part
-of the business understanding available to the project. Constructing
-this glossary is a useful “knowledge elicitation” and education
-exercise.*
-
-
-
-# Project Outputs
-
-*Describe the outputs of the project to enable achievement of the
-business objectives. What data will be produced? What pipelines need
-implemented? Reports? This paragraph serves as the "answer" to the Business Objectives section*
+---
 
