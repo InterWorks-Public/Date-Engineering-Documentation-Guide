@@ -10,7 +10,7 @@
 
 # Overview
 
-*This document provides a structured process for integrating new data sources into the project. As this is a highly variable task, we suggest not modifying this template much outside of the deployment section, and using it as a guide on what sort of questions you need answered from your client and yourself  before going ahead with getting this new source added. Answering the questions below in the second section for yourself will also provide you the framework for the documentation of your new source once you get around to that, to minimize the amount of work needed to add the new docs. Be sure to check out the references list to see who you should reach out to for updates to current docs. 
+*This document provides a structured process for integrating new data sources into the project. As this is a highly variable task, we suggest not modifying this template much outside of the deployment section, and using it as a guide on what sort of questions you need answered from your client and yourself  before going ahead with getting this new source added. Answering the questions below in the second section for yourself will also provide you the framework for the documentation of your new source once you get around to that, to minimize the amount of work needed to add the new docs. Be sure to check out the references list to see who you should reach out to for updates to current docs.* 
 
 # Business Purpose
 
