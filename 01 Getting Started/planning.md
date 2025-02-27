@@ -27,7 +27,7 @@ Business Context and Objectives
 
 | Name | Organization/Client/Internal or External ETC   | Role                                  | Contact Information |
 |------|------------------------------------------------|---------------------------------------|---------------------|
-|      | data/analytics, Company X, external------------| The role of the person in the project | email/phone         |
+|      | data/analytics, Company X, external            | The role of the person in the project | email/phone         |
 
 
 
