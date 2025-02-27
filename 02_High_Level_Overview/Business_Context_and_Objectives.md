@@ -57,7 +57,7 @@ List the **people, tools, and documents** available for the project.
 - **Tableau**  
 - **Other relevant tools**  
 
-> **This section ensures team members know what resources are available to them.**  
+> **Ensures team members know what resources are available to them.**  
 
 ---
 
@@ -71,7 +71,7 @@ A **glossary of business-specific terminology** to improve shared understanding.
 | **Data Pipeline** | The automated process of moving and transforming data. |
 | **BI (Business Intelligence)** | Tools and strategies for data analysis and reporting. |
 
-> **This section prevents miscommunication and ensures alignment in discussions.**  
+> **Prevents miscommunication and ensures alignment in discussions.**  
 
 ---
 
@@ -82,7 +82,7 @@ Define the **expected deliverables** that will support business objectives.
 - **Pipelines & Automation:** What workflows need to be implemented?  
 - **Reports & Dashboards:** What reporting needs to be available?  
 
-> **This section connects the project’s **technical execution** to **business goals**, ensuring a clear path to success.**  
+> **Connects the project’s **technical execution** to **business goals**, ensuring a clear path to success.**  
 
 ---
 
