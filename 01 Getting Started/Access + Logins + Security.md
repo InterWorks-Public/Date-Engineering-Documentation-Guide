@@ -31,7 +31,7 @@
 *include any necessary security information not already mentioned above. You can repeat any legal requirements here for thoroughness if desired.*
 
 
-# Personell:
+# References/Contacts:
 
 *List of people working on the project with respect to login setup. This is generally IT folks.*
 
