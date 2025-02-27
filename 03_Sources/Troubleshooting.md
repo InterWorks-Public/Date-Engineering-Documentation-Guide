@@ -32,6 +32,35 @@
 
 
 
+# Monitoring
+
+### Change management
+
+*Define how updates to source systems are handled to prevent breaking changes (This should also be part of troublshooting)*
+
+- Source updates: how are API version changes, schema modifications, or ownership changes handled?
+- Schema evolution strategy:
+     - Does the system support new fields automatically?
+     - How are breaking changes detected and mitigated? 
+- Testing and Validation: Are there staging environments or shadow tables to validate changes?
+- Communication Plan: How are teams notified about source system changes?
+
+
+### Monitoring and Issue Resolution
+
+* Define how source systems are monitored for ddata freshness, consistency and failures. (This should also be part of troubleshooting)*
+
+- Data Freshness Checks
+       - Are new records appearing on schedule?
+       - Do time based partitions align with expected ingestin rates?
+- Anomaly detection:
+       - unexpected nulls, duplicate records, missing fields?
+- Alerting and Logging:
+       - Are failures logged?
+       - Who gets notified when something breaks? 
+
+
+
 
 # Contacts
 
