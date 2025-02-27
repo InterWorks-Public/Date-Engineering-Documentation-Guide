@@ -12,6 +12,16 @@
 
 *This document provides a structured process for integrating new data sources into the project. As this is a highly variable task, we suggest not modifying this template much outside of the deployment section, and using it as a guide on what sort of questions you need answered from your client and yourself  before going ahead with getting this new source added. Answering the questions below in the second section for yourself will also provide you the framework for the documentation of your new source once you get around to that, to minimize the amount of work needed to add the new docs. Be sure to check out the references list to see who you should reach out to for updates to current docs.* 
 
+
+
+
+# Contacts
+
+| Name | Organization   | Role                                  | Contact Information |
+|------|----------------|---------------------------------------|---------------------|
+|      | data/analytics | The role of the person in the project | email/phone         |
+
+
 # Business Purpose
 
 *Document why this new source is being added and what it needs to support. You will alter use this in the overview section of the documentation for your new source. Here you want to consider the "why", its impact on existing systems, and how it will integrate into current source systems. Remember that you need to get very clear approval from the client for this, as well as clarity on the business purpose so you make sure you fulfill the request they having in mind, not just integrating the source to integrate it. Make sure you have the final views or tables it should lead up to in mind as you do this.*
@@ -85,13 +95,5 @@
 
 
 
-
-
-
-# Contacts
-
-| Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
 
 
