@@ -10,7 +10,7 @@
 
 # Overview
 
-*blurb discussing what is included in this file.*
+*This document provides details on API integrations, authentication mechanisms, and data exchange formats used in this project. It serves as a reference for understanding how external and internal systems connect to retrieve and send data.*
 
 
 # Contacts
