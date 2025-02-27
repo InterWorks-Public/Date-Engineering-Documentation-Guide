@@ -76,10 +76,46 @@ Define best practices for **efficient data extraction** from APIs and databases.
   - Are API calls or queries executed in parallel to optimize runtime?  
   - Are there mechanisms to retry failed requests without reprocessing successful ones?  
 
+
+
+## 4. Error Handling & Recovery  
+Define strategies for handling **extraction failures and partial data loads**.  
+
+### **Retry & Backoff Strategies:**  
+- If an **API fails**, how many retries are attempted?  
+- Is **exponential backoff** used for rate-limited APIs?  
+
+### **Handling Missing or Corrupt Data:**  
+- How do we handle **NULL values, missing files, or empty API responses**?  
+
+### **Logging & Monitoring:**  
+- Are **errors logged**? Where? (DataDog, Splunk, ELK)  
+- Are **alerts triggered** for persistent failures?  
+
 ### **Example:**  
 
-```sql
-SELECT id, name, created_at
-FROM users
-WHERE updated_at >= DATEADD(DAY, -1, GETDATE()) -- Incremental extraction
-ORDER BY updated_at DESC;
+| **Error Type**   | **Recovery Strategy** |
+|------------------|----------------------|
+| API Timeout     | Retry with exponential backoff |
+| Schema Change   | Log issue, alert data engineers |
+| Missing Data    | Skip batch, retry next cycle |
+
+> **📌 Ensures robustness** in handling extraction failures.  
+
+---
+
+## 5. Data Quality & Validation Checks  
+Define **automated checks** to ensure **data accuracy** during extraction.  
+
+### **Row Count & Volume Checks:**  
+- Does the extracted data match expected **record counts**?  
+
+### **Duplicate Detection:**  
+- Are **unique keys enforced**?  
+
+### **Data Type & Format Validation:**  
+- Do extracted values match **expected data types**?  
+
+### **Anomaly Detection:**  
+- Are **outliers flagged** (e.g., negative prices, extreme values)?  
+
