@@ -41,11 +41,11 @@ Describe the authentication methods used for API's and connections relevant to y
 
 # API Rate Limits and Quotas
 
-Define any rate limits imposed by external APIs and strategies to handle them.*
+Define any rate limits imposed by external APIs and strategies to handle them. This section can tie into any troubleshooting, and if rate limits are expecting to be met, this may be a wider concern that needs to be brought up with the client. Otherwise, linking your troubleshooting information for hitting rate limits may be linked here for ease of use.*
 
 - Rate Limits
-- Pagination strategies: Handling large data extractions
-- Retry logic: How does the system handle failures?
+- Pagination strategies
+- Retry logic
 
 
 # Data Formats and Transformation
