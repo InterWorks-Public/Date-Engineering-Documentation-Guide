@@ -75,19 +75,3 @@ A list of **project members** and their **responsibilities**.
 
 ---
 
-## How This Fits with Other Documentation  
-- **["API’s and Connections"](api_connections.md)** → Covers authentication and API setup  
-- **["Source Systems"](source_systems.md)** → Provides high-level details on all integrated sources  
-- **["Troubleshooting"](troubleshooting.md)** → Details solutions for common issues  
-
----
-
-## Why This Version Works for Existing Projects  
-✅ **Encourages structured onboarding** → Helps new contributors get started efficiently.  
-✅ **Prioritizes documentation consistency** → Ensures all contributions follow the same guidelines.  
-✅ **Provides a clear list of dependencies & tools** → Helps users set up their working environment quickly.  
-✅ **Links related documentation** → Makes navigation **seamless** between topics.  
-
----
-
-🚀 **Now everything is properly formatted and ready to use!** Let me know if you need **any refinements.** 🔥  
