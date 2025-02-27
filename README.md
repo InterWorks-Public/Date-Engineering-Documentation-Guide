@@ -64,10 +64,6 @@ Ex: login and access is part of getting started's general file, but if this is a
   - Known extraction issues and common troubleshooting methods.
   - Possible pressure points in the process.
 **Purpose:** A detailed breakdown of data sources used in the project.
-- `Source_Systems.md`: Overview of data sources and their ownership.
-- `APIs_and_Connections.md`: Authentication methods, API endpoints, and credentials setup (excluding sensitive information).
-- `File_Formats.md`: Descriptions of expected file types (CSV, JSON, Parquet, etc.).
-- `Schema_Reference.md`: Table structures, columns, and data types.
 
 ## 04 DB Architecture
 **Purpose:** Database design and implementation details.
