@@ -115,9 +115,3 @@ Define the process for **modifying schema definitions** while minimizing disrupt
 
 ---
 
-## How This Fits with Other Documentation  
-- **["ER Diagram"](er_diagram.md)** → Visual representation of **table relationships**.  
-- **["DB Architecture Overview"](db_architecture.md)** → Covers **database structure & design**.  
-- **["Permissions"](permissions.md)** → Defines **role-based access to schemas & tables**.  
-
----
