@@ -114,10 +114,4 @@ Ensure that permissions comply with **security and regulatory frameworks**.
 
 ---
 
-## Next Steps  
-- **Review access logs** periodically and enforce **least privilege policies**.  
-- **Ensure external systems** have only the **required level of access**.  
-- **Regularly audit permissions** to prevent unnecessary privilege escalation.  
-
----
 
