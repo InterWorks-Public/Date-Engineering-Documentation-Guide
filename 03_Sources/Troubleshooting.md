@@ -9,7 +9,7 @@
 
 # Overview
 
-*Troubleshooting information for each of the topics above. This is best if its a folder containing subfolders for each of the following topics: *
+*Troubleshooting information for each of the topics above. This is best if its a folder containing subfolders for each of the following topics:*
 
 # API Troubleshooting 
 
