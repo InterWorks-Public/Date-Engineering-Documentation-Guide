@@ -9,7 +9,7 @@
 
 # Overview
 
-*blurb discussing what is included in this file. *
+*blurb discussing what is included in this file.*
 
 # Contacts
 
