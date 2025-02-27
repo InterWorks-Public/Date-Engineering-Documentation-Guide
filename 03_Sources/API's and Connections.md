@@ -25,7 +25,7 @@
 Describe the authentication methods used for API's and connections relevant to your sources. The following topics can be subdived by source if doing all in one file, but my personal suggestion is always to split this up into multiple files (one for each source) as this will improve clarity, and wont take you much longer to find the specific file the source you are interested in.*
 
   - Authentication type: (OAuth 2.0, API Key, Basic Auth, etc)
-  - Token Exiry and Refresh Process
+  - Token Expiry and Refresh Process
   - Secrets Management: where are API keys stored? Vaults, environment variables, secret managers, etc
   - Security considerations: Encryption in transcit, access control policies, logging
  
@@ -35,15 +35,15 @@ Describe the authentication methods used for API's and connections relevant to y
 *Describe the different types of connections used in this project.*
 
 - Rest API's: Endpoints, request/response formats (JSON, XML)
-- Database Connections: Snowflake, PostgreSQL, SQL Server, etc
-- Streaming Sources: (Kafka, Streamkap, etc)
-- File-Based Sources: (AWS s3, Azure Blob, SFTP, etc)
+- Database Connections
+- Streaming Sources
+- File-Based Sources
 
 # API Rate Limits and Quotas
 
 Define any rate limits imposed by external APIs and strategies to handle them.*
 
-- Rate Limits: list them if applicable
+- Rate Limits
 - Pagination strategies: Handling large data extractions
 - Retry logic: How does the system handle failures?
 
