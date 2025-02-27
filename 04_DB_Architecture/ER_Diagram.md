@@ -22,5 +22,19 @@ The **ER Diagram** should be embedded below or linked as an image/PDF for easy r
 
 ### **Diagram Format Options:**  
 - **Preferred:** Directly embed the diagram if supported by your documentation tool.  
-- **Alternative:** Provide a **download link** if the diagram is too large.  
+- **Alternative:** Provide a **download link** if the diagram is too large.
+
+
+
+## 2. How to Update the ER Diagram
+When to update: 
+- ** Schema Changes: New tables, columns or relationships added.
+- ** Foreign Key adjustments: Any modifications to relationships between tables.
+- ** Deprecation of tables: If entities are removed from the schema.
+
+How to update:
+- Modify the ER Diagram using a design tool (draw.io, figma, etc)
+- Export as PNG/PDF
+- Replace Existing diagram in this document
+- Update the schema documentation in `04_DB_architecture/Schema_Documentation.md`
 
