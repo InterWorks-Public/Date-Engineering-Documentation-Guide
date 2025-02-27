@@ -24,7 +24,7 @@ the new solution improve if there is one? This should serve as a field overview,
 
 # Inventory of Resources
 
-*List the resources available to the project. People, tools, other relevant documents, legal, etc. This type of field will appear in most documents. 
+*List the resources available to the project. People, tools, other relevant documents, legal, etc. This type of field will appear in most documents. *
 
 ## Personnel
 
@@ -48,12 +48,6 @@ the new solution improve if there is one? This should serve as a field overview,
 
 -   *Etc.*
 
-# Requirements
-
-*List all requirements of the project, including schedule of completion,
-comprehensibility and quality of results, and security, as well as legal
-issues. 
-
 
 # Terminology
 
@@ -68,12 +62,5 @@ exercise.*
 
 *Describe the outputs of the project to enable achievement of the
 business objectives. What data will be produced? What pipelines need
-implemented? Reports?*
+implemented? Reports? This paragraph serves as the "answer" to the Business Objectives section*
 
-# Project Success Criteria
-
-*Define the criteria for a successful outcome to the project in
-technical terms—for example, a certain level of insight is gained. As
-with business success criteria, it may be necessary to describe these in
-subjective terms, in which case the person or persons making the
-subjective judgment should be identified.*
