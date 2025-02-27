@@ -120,7 +120,7 @@ Define **automated checks** to ensure **data accuracy** during extraction.
 - Are **outliers flagged** (e.g., negative prices, extreme values)?
 
   
-> 📌 Prevents bad data from propagating through the pipeline.
+> Prevents bad data from propagating through the pipeline.
 
 ---
 
@@ -139,7 +139,7 @@ Define strategies for **optimizing extraction** as data volumes grow.
 - Are **redundant data extractions avoided**?  
 - Are extractions **optimized** to minimize cloud storage and compute costs?  
 
-> **📌 Ensures** that extraction processes remain **scalable and cost-efficient** over time.  
+> **Ensures** that extraction processes remain **scalable and cost-efficient** over time.  
 
 ---
 
@@ -150,11 +150,5 @@ Define strategies for **optimizing extraction** as data volumes grow.
 
 ---
 
-## How This Fits with Other Documentation  
-- **["Source Systems"](source_systems.md)** → Provides **high-level details** on all integrated sources  
-- **["Adding New Sources"](adding_new_sources.md)** → Covers **integration steps** for new data sources  
-- **["API’s and Connections"](api_connections.md)** → Details **authentication and connection setup**  
-
----
 
 
