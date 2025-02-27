@@ -9,7 +9,7 @@
 ## Overview  
 This document provides **troubleshooting guidelines** for various system components.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - It is recommended to structure this as a **folder** containing **subfolders** for each topic below.  
 > - This will allow for easier navigation and **more detailed troubleshooting** where needed.  
 
@@ -51,7 +51,7 @@ Define how the **system handles connection failures**.
 - **Disaster Recovery Considerations:**  
   - What are the **backup plans** for persistent failures?  
 
-> **📌 Ensures** that API failures are **logged, recovered, and monitored effectively**.  
+> **Ensures** that API failures are **logged, recovered, and monitored effectively**.  
 
 ---
 
@@ -70,7 +70,7 @@ Define how **updates to source systems** are handled to prevent **breaking chang
 - **Communication Plan:**  
   - How are **teams notified about source system changes**?  
 
-> **📌 Prevents unexpected failures** caused by **schema and API updates**.  
+> **Prevents unexpected failures** caused by **schema and API updates**.  
 
 ---
 
@@ -86,7 +86,7 @@ Define how **source systems** are monitored for **data freshness, consistency, a
   - Are **failures logged**? Where?  
   - **Who gets notified** when something breaks?  
 
-> **📌 Ensures proactive issue resolution** before failures impact **production**.  
+> **Ensures proactive issue resolution** before failures impact **production**.  
 
 ---
 
@@ -94,13 +94,5 @@ Define how **source systems** are monitored for **data freshness, consistency, a
 - If a **new troubleshooting issue is identified**, ensure this document is updated.  
 - If **modifying an existing API or source system**, ensure proper **testing & monitoring** is in place.  
 - Regularly review **monitoring logs and alerts** to **identify patterns in failures**.  
-
----
-
-## How This Fits with Other Documentation  
-- **["API’s and Connections"](api_connections.md)** → Covers authentication and connection setup  
-- **["Source Systems"](source_systems.md)** → Provides high-level details on all integrated sources  
-- **["Adding New Sources"](adding_new_sources.md)** → Covers integration steps for new data sources  
-- **["Extraction Details"](extraction_details.md)** → Details how data is retrieved and processed  
 
 ---
