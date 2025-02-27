@@ -9,7 +9,7 @@
 ## Overview  
 This document provides a structured process for integrating **new data sources** into the project.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - This is a **highly variable task**, so this document should serve as a **guide** rather than a rigid template.  
 > - Answering the questions below will help **streamline documentation** for the new source later.  
 > - Be sure to check the **references list** to see **who to contact for updates to current docs**.  
@@ -34,14 +34,14 @@ This document provides a structured process for integrating **new data sources**
 - **What are the final tables/views this data will support?**  
 - **Has the client approved this with clear expectations?**  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - This section will later form the **Overview** for the new source’s documentation.  
 > - Ensure you have **written client approval** to avoid misalignment on business needs.  
 
 ---
 
 ## 2. Documenting Your New Source + Setup for Success  
-> **📌 Why document upfront?**  
+> **Why document upfront?**  
 > - Helps **identify gaps** in understanding.  
 > - Provides a **clear roadmap** for implementation.  
 > - Minimizes redundant documentation efforts later.  
@@ -72,7 +72,7 @@ This document provides a structured process for integrating **new data sources**
 - **Error Handling Strategy:** What should happen when data fails validation?  
 - **Performance Monitoring:** Should pipeline execution time be tracked?  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - Setting up documentation early clarifies questions **before implementation begins**.  
 
 ---
@@ -99,7 +99,7 @@ This document provides a structured process for integrating **new data sources**
   - New storage bucket creation?  
   - Database schema updates?  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - Ensure **comprehensive testing** before deploying to production.  
 > - Get **explicit sign-off** from stakeholders before deployment.  
 
@@ -122,9 +122,3 @@ This document provides a structured process for integrating **new data sources**
 
 ---
 
-## How This Fits with Other Documentation  
-- **["API’s and Connections"](api_connections.md)** → Covers authentication and connection setup  
-- **["Source Systems"](source_systems.md)** → Provides high-level details on all integrated sources  
-- **["Extraction Details"](extraction_details.md)** → Details how data is retrieved and processed  
-
----
