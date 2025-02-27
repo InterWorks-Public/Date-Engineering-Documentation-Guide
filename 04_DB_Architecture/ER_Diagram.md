@@ -17,6 +17,18 @@ This document contains the **Entity-Relationship (ER) Diagram** for the projectâ
 
 ---
 
+## Contacts  
+These contacts should include:  
+- **Who maintains this documentation**  
+- **Who to contact when issues arise**  
+- **Who has expertise in specific troubleshooting areas**  
+
+| Name  | Organization   | Role                                  | Contact Information |
+|-------|--------------|---------------------------------------|---------------------|
+|       | Data/Analytics | The role of the person in the project | email/phone |
+
+---
+
 ## 1. ER Diagram 
 The **ER Diagram** should be embedded below or linked as an image/PDF for easy reference.  
 
