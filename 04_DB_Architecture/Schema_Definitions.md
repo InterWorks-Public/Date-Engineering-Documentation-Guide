@@ -30,7 +30,7 @@ These contacts should include:
 
 
 ## 1. Schema Overview  
-Provide a **high-level structure** of the database, outlining **schemas, key tables, and relationships**.  
+Provide a **high-level structure** of the database, outlining **schemas, key tables, and relationships**. This may need to be done on a per source basis, or whatever other system you desire depending on how large your project is.   
 
 | **Schema Name** | **Description** | **Primary Use Case** |
 |---------------|-------------|------------------|
