@@ -58,7 +58,7 @@ Define any rate limits imposed by external APIs and strategies to handle them. T
 
 # Error Handling and Monitoring
 
-*Define how API failures, downtime, and errors are managed.*
+*Define how API failures, downtime, and errors are managed. Note that this should be copied near 1:1 in your troubleshooting section within SOURCES.*
 
 - Error codes & responses: How to handle HTTP 400s, 500s, timeouts, etc.
 - Logging and Monitoring: Are API failures logged? How are errors surfaced?
@@ -67,7 +67,7 @@ Define any rate limits imposed by external APIs and strategies to handle them. T
 
 # Connection Failures and Recovery
 
-*How does the sytem handle connection failures?*
+*How does the sytem handle connection failures? Note that this should be copied near 1:1 in your troubleshooting section within SOURCES.*
 
 - Handling Unavailable APIs: the syste retry, queue request, or use cached data?
 - Database connection issues: Failover mechanisms, reconnection strats
