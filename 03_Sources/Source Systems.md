@@ -73,8 +73,19 @@
        - unexpected nulls, duplicate records, missing fields?
 - Alerting and Logging:
        - Are failures logged?
-       - Who gets notified when something breaks? 
+       - Who gets notified when something breaks?
 
+
+# Source System Retirement and Deprecation
+
+*Outline the process for retiring or replacing a source system whenever needed. This wil also help with cleanup after the fact and prefent clutter which ensures a smoother transition.*
+
+- When is a source obsolete?
+- Cost or performance concerns?
+- How is historical data migrated
+- What alternate sources replace the old ones if applicable
+- Are old tables/buckets purged or archived?
+- How long is data retained before deletion? 
 # Contacts
 
 | Name | Organization   | Role                                  | Contact Information |
