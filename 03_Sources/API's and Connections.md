@@ -10,7 +10,7 @@
 
 # Overview
 
-*This document provides details on API integrations, authentication mechanisms, and data exchange formats used in this project. It serves as a reference for understanding how external and internal systems connect to retrieve and send data. This can be split up by source if you have many sources, or can be just one file if you have only a few.*
+*This document provides details on API integrations, authentication mechanisms, and data exchange formats used in this project. It serves as a reference for understanding how external and internal systems connect to retrieve and send data. This can be split up by source if you have many sources, or can be just one file if you have only a few. Remember to treat these as suggestions and not absolute truth. You may need to add more than what is provided, and you may find some of this to be overkill. Take what you want, and leave what you don't!* 
 
 
 # Contacts
