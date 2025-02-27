@@ -18,7 +18,7 @@ Business Context and Objectives
 
 # Tools, Dependencies and Access/Logins
 
-* List any tools to be used throughout the project, as well as associated login instructions. You can instead just refer the reader to the separate "Access and Logins File if this is more extensive than simple logins. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
+*List any tools to be used throughout the project, as well as associated login instructions. You can instead just refer the reader to the separate "Access and Logins File if this is more extensive than simple logins. This will reference the later "Access and Logins" section. If tools require installation (on prem) give instructions on how to do so here.*
 
 Example: 
 
