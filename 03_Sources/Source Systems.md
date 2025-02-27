@@ -1,94 +1,141 @@
-# Source Systems
+# Source Systems  
+**{ Your Company Name }**  
+**Author:** { Author }  
+**Date:** { Date }  
+**Version:** { Version }  
 
-{ Your Company Name }
+---
 
-{ Author  }
+## Overview  
+This document provides an inventory of all data source systems integrated into the project. It outlines each source's purpose, access details, data characteristics, and dependencies. This ensures transparency in how data flows into the system and helps assess the impact of changes.  
 
-{ Date }
+---
 
-{ Version }
-
-# Overview
-
-*This document provides an inventory of all data source systems integrated into the project. It outlines each source's purpose, access details, data characteristics, and dependencies. This ensures transparency in how data flows into the system and helps assess the impact of changes.*
-
-# Contacts
+## Contacts  
 
 | Name | Organization   | Role                                  | Contact Information |
-|------|----------------|---------------------------------------|---------------------|
-|      | data/analytics | The role of the person in the project | email/phone         |
+|------|--------------|---------------------------------------|---------------------|
+|      | Data/Analytics | The role of the person in the project | email/phone |
 
+---
 
-# Source System Inventory
+## 1. Source System Inventory  
+Provide a high-level list of all integrated data sources with important metadata.  
 
-*Provide a high level list of all integrated data source with important metadate. Below is an example:* 
+### **Example:**  
 
-| Source Name | Type  | Owner    | Frequency | Format | Connection Type |
-|-------------|-------|----------|-----------|--------|-----------------|
-| Indeed | API  | Data Team   | Daily | JSON | REST |
-| Linkedin | S3 | Data Team   | Hourly | CSV| REST |
-| Mapping File #1 | S3 | Data Team   | Monthly | CSV| Manual |
+| Source Name       | Type  | Owner      | Frequency | Format | Connection Type |
+|------------------|------|----------|-----------|--------|-----------------|
+| Indeed          | API  | Data Team | Daily     | JSON   | REST |
+| LinkedIn        | S3   | Data Team | Hourly    | CSV    | REST |
+| Mapping File #1 | S3   | Data Team | Monthly   | CSV    | Manual |
 
-# Source System Details: 
+> This table serves as a quick reference for all source systems. Expand as needed.
 
-*For each source, provide a deeper Technical Overview. You may also splt thes out into individual subfiles if you wish, that is up to you and your team. This will have some overlap with other source docs, which is okay. If you want to link them in for even more granularity, this is a good idea if it works for you!*
+---
 
-*Example: Salesforce API*
-- Purpose: provides customer interaction data for analytics
-- Access: API authentication using Oauth 2.0. Credentials stored in Azure Key vault
-- Connection Details:
-     - Endpoint/s: https://api.salesforce.com/data/example/
-     - Rate Limits: 10,000 calls per hour
-     - Pagination: uses nextPageToken for incremental data fetching
-- Data Structure:
-     - Entities: Leads, Opportunites, Accounts, Contacts
-     - Schema Considerations: Some fields are Nullable, JSON response varies by version.
-- Dependencies: Used in ETL pipeline for big lead scoring models.
+## 2. Source System Details  
+For each source, provide a deeper **technical overview**. You may also split these into individual subfiles if needed.  
 
+### **Example: Salesforce API**  
+- **Purpose:** Provides customer interaction data for analytics.  
+- **Access:** API authentication using OAuth 2.0. Credentials stored in **Azure Key Vault**.  
+- **Connection Details:**  
+  - **Endpoint:** `https://api.salesforce.com/data/example/`  
+  - **Rate Limits:** 10,000 API calls per hour  
+  - **Pagination:** Uses `nextPageToken` for incremental data fetching  
+- **Data Structure:**  
+  - **Entities:** Leads, Opportunities, Accounts, Contacts  
+  - **Schema Considerations:** Some fields are nullable; JSON response varies by version.  
+- **Dependencies:** Used in ETL pipeline for lead scoring models.  
 
-# Data Flow and Dependencies
+> Each source system should have a detailed breakdown like this. You can also link to more detailed source-specific documentation.
 
-*Describe how data moves from source systems into the projects' pipelines. 
-- Ingestion methods: Batch, real-time
-- Processing stages (you may/should) include visuals here for clarity
-- transformation tools
-- Downstram usage: Which views, dashboards, etc is this source impacting.
+---
 
-*You should really include a data flow diagram here if possible. This will serve as a more specific and microscopic version of what you see in the "HIGH LEVEL OVERVIEW" diagram in section 02 of your documentation. 
+## 3. Data Flow & Dependencies  
+Describe how data moves from source systems into the project’s pipelines.  
 
-# Change management
+- **Ingestion Methods:** Batch, real-time  
+- **Processing Stages:** (Visuals highly recommended for clarity)  
+- **Transformation Tools:** dbt, Matillion, Airflow, Spark  
+- **Downstream Usage:**  
+  - Which views, dashboards, ML models, or reporting tools does this source impact?  
+  - What business processes rely on this data?  
 
-*Define how updates to source systems are handled to prevent breaking changes (This should also be part of troublshooting)*
+> **📌 Best Practice:** Include a **data flow diagram** here. This serves as a **detailed version** of the "High-Level Overview" diagram in Section 02 of your documentation.
 
-- Source updates: how are API version changes, schema modifications, or ownership changes handled?
-- Schema evolution strategy:
-     - Does the system support new fields automatically?
-     - How are breaking changes detected and mitigated? 
-- Testing and Validation: Are there staging environments or shadow tables to validate changes?
-- Communication Plan: How are teams notified about source system changes?
+---
 
+## 4. Change Management  
+Define how updates to source systems are handled to prevent **breaking changes**.  
 
-# Monitoring and Issue Resolution
+- **Source Updates:** How are API version changes, schema modifications, or ownership changes handled?  
+- **Schema Evolution Strategy:**  
+  - Does the system support new fields automatically?  
+  - How are breaking changes detected and mitigated?  
+- **Testing & Validation:**  
+  - Are there staging environments or shadow tables to validate changes?  
+- **Communication Plan:**  
+  - How are teams notified about source system changes?  
 
-* Define how source systems are monitored for ddata freshness, consistency and failures. (This should also be part of troubleshooting)*
+> These steps help prevent disruptions when source systems evolve.
 
-- Data Freshness Checks
-       - Are new records appearing on schedule?
-       - Do time based partitions align with expected ingestin rates?
-- Anomaly detection:
-       - unexpected nulls, duplicate records, missing fields?
-- Alerting and Logging:
-       - Are failures logged?
-       - Who gets notified when something breaks?
+---
 
+## 5. Monitoring & Issue Resolution  
+Define how source systems are monitored for **data freshness, consistency, and failures**.  
 
-# Source System Retirement and Deprecation
+- **Data Freshness Checks:**  
+  - Are new records appearing on schedule?  
+  - Do time-based partitions align with expected ingestion rates?  
+- **Anomaly Detection:**  
+  - Are there unexpected NULLs, duplicate records, or missing fields?  
+- **Alerting & Logging:**  
+  - Are failures logged? Where? (DataDog, Splunk, ELK, Azure Monitor)  
+  - Who gets notified when something breaks?  
 
-*Outline the process for retiring or replacing a source system whenever needed. This wil also help with cleanup after the fact and prefent clutter which ensures a smoother transition.*
+> **📌 Best Practice:** Include this in **troubleshooting documentation** to quickly diagnose issues.
 
-- When is a source obsolete?
-- Cost or performance concerns?
-- How is historical data migrated
-- What alternate sources replace the old ones if applicable
-- Are old tables/buckets purged or archived?
-- How long is data retained before deletion? 
+---
+
+## 6. Source System Retirement & Deprecation  
+Outline the process for **retiring or replacing** a source system when necessary.  
+
+- **Deprecation Criteria:**  
+  - When is a source considered obsolete?  
+  - Are there cost or performance concerns?  
+- **Transition Plan:**  
+  - How is historical data migrated?  
+  - What alternate sources replace the old system (if applicable)?  
+- **Data Cleanup & Archival:**  
+  - Are old tables/buckets **purged** or **archived**?  
+  - How long is data retained before deletion?  
+
+> **📌 Best Practice:** Regularly review active data sources to avoid **clutter and redundancy**.
+
+---
+
+## Next Steps  
+- Update this document whenever a **new source is added** or **an old one is retired**.  
+- Ensure all changes to source systems are communicated to relevant teams.  
+- Maintain proper **testing & monitoring** workflows for long-term reliability.  
+
+---
+
+## How This Fits with Other Documentation  
+- **["API’s and Connections"](api_connections.md)** → Covers authentication and connection setup  
+- **["Adding New Sources"](adding_new_sources.md)** → Covers integration steps for new data sources  
+- **["Extraction Details"](extraction_details.md)** → Explains how data is retrieved and processed  
+
+---
+
+## Why This Version Works for Existing Projects  
+✅ **Provides a central inventory of all source systems** → Makes it easy to track existing data sources.  
+✅ **Includes impact assessment for system changes** → Helps prevent downstream issues.  
+✅ **Standardizes monitoring & alerting expectations** → Ensures data reliability.  
+✅ **Covers deprecation & transition plans** → Avoids abandoned or redundant data sources.  
+
+---
+
+Would this structure work for you? Let me know if you need any refinements! 🚀
