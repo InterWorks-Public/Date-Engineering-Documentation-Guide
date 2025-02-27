@@ -9,7 +9,7 @@
 ## Overview  
 Before beginning, **new users** should **read through the documentation** (at least structurally) to **familiarize themselves** with where key information is located.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - **Understand how information is organized** to quickly find relevant sections.  
 > - Review **important dependencies, access requirements, and tools** used in this project.  
 > - If unsure where to start, check the **Contributors & Contacts** section.  
@@ -27,14 +27,14 @@ This section outlines how to **suggest edits, contribute new documentation, and 
 - Maintain **consistency in formatting** (headings, bullet points, code blocks).  
 - Follow company-specific writing conventions (if applicable).  
 
-> **📌 If your company already has a documentation setup, list the process here.**  
+> **If your company already has a documentation setup, list the process here.**  
 
 ---
 
 ## 2. Tools, Dependencies, and Access/Logins  
 List the **tools used throughout the project**, along with their **associated login instructions**.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - If login/access details are **extensive**, refer to the **[Access and Logins](access_logins.md)** section.  
 > - If tools require **installation**, include **setup instructions** below.  
 
@@ -53,7 +53,7 @@ List the **tools used throughout the project**, along with their **associated lo
 ## 3. Contributors  
 A list of **project members** and their **responsibilities**.  
 
-> **📌 Best Practice:**  
+> **Best Practice:**  
 > - This should serve as a **"phone book"** for anyone working on the project.  
 > - Ensure **this section is updated** as the project evolves.  
 
