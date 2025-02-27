@@ -5,6 +5,10 @@
 
 This repository serves as a structured template for documentation writers. It provides a well-organized framework for documenting data projects, whether for internal use, client-facing materials, or expanding existing documentation.
 
+The provided templates combine these files into one master file in some cases. This is for ease of use, but you can feel free to break these out into multiple files within each section if your project or subsection is rather large.
+
+Ex: login and access is part of getting started's general file, but if this is an extensive process for you, (VPN's, multiple passwords for many tools, security settings etc) it may be useful to break this out into its own file. You may still use the suggested substructure to form the contents of this new file. 
+
 ## 01 Getting Started
 **Purpose:** This folder provides foundational guidance for new documentation writers and project members.
 - `README.md`: Overview of the repository's structure and how to use the template.
