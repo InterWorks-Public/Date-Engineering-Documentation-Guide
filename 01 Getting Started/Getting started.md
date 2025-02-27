@@ -1,4 +1,4 @@
-# Business Context and Objectives
+# Getting Started
 
 { Your Company Name }
 
