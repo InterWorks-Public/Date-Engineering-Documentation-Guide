@@ -1,6 +1,6 @@
 # documentation_guide
 
-See the above general template once you have gone through the repo. This will be the contents included in every file you create, regardless of subject. Feel free to use as much or as little of the suggested templates within each of the topics' folders! Happy documenting :) 
+See the general template in the top level directory once you have gone through the repo. This will be the contents included in every file you create, regardless of subject. Feel free to use as much or as little of the suggested templates within each of the topics' folders! Happy documenting :) 
 
 
 # Data Project Documentation Template
