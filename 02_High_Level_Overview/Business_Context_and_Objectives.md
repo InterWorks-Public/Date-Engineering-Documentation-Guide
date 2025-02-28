@@ -43,7 +43,7 @@ Define the **primary and secondary objectives** from a **business perspective**.
 ---
 
 ## 3. Inventory of Resources  
-List the **people, tools, and documents** available for the project.  
+List the **people, tools, and documents** available for the project.  ADD ACRONYMS TO THE TABLE AS A SEPARATE COLUMN AS WELL 
 
 ### **Personnel**  
 | **Name** | **Organization** | **Role** | **Contact Information** |
